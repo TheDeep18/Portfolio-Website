@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* overflow-x: hidden; */
+}
+
+
+/* Navbar */
+#navbar{
+    /* border: 5px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 98vw;
+    height: 250px;
+    margin: auto;
+}
+
+#logo{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#links{
+    padding: 14px;
+    display: flex;
+    text-align: center;
+    list-style: none;
+    
+}
+
+
+#links a{
+    text-decoration: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    padding: 14px;
+    margin: 10px;
+    margin-bottom: 4px;
+    display: flex;
+    text-align: center;
+    
+}
+
+#links:hover a{
+    cursor: pointer;
+    padding: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    display: flex;
+    text-align: center;
+    /* border-bottom: 1px solid black; */
+
+}
+
+#links a:active{
+    cursor: pointer;
+    padding: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #ba9043;
+    display: flex;
+    text-align: center;
+    /* border-bottom: 1px solid black; */
+
+}
+
+
+
+
+/* Body projects  */
+
+#projects{
+    width: 98vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+
+#projects a{
+    text-decoration: none;
+}
+
+
+.projectOne{
+    background-image: url("./img/project front page/1.png");
+}
+
+.projectTwo{
+    background-image: url("./img/project front page/2.png");
+}
+
+.projectThree{
+    background-image: url("./img/project front page/3.png");
+}
+
+
+
+
+
+
+
+
+.projectItem{
+    width: 60vw;
+        height: 281px;
+        transition: 0.5s; 
+        display: flex; 
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+        background-position: center;
+        background-size: cover;
+        margin-bottom: 20px;
+}
+
+.projectItem p{
+    font-family: 'Roboto', sans-serif;
+        opacity: 0;
+        transform: scale(0);
+        transition: 0.8s;
+        font-size: 3rem;
+        color: black;
+}
+
+.projectItem:hover{
+        box-shadow: 0 0 0 200px rgba(186, 144, 67, 0.96) inset;
+}
+
+.projectItem:hover p{
+        opacity: 1;
+            transform: scale(1);
+}
+
+
+
+footer{
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}

@@ -1,0 +1,12 @@
+#intro{
+    border: 1px solid black;
+    height: 375px;
+    display: flex;
+}
+
+.desc{
+    width: 48vw;
+    border: 1px solid black;
+    height: 150px;
+    margin: 10px;
+}
