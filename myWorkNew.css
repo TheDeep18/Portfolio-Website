@@ -5,7 +5,7 @@
 }
 
 .heading {
-margin: 140px 150px 0px;
+    margin: 140px 150px 0px;
 }
 
 .heading::before {
@@ -105,10 +105,13 @@ margin: 140px 150px 0px;
     /* width: auto; */
 }
 
+.colabPoster{
+    transition: all 0.65s ease-in-out;
+
+}
 .colabPoster:hover {
     transform: scale(1.05);
-        animation-delay: 0.25s !important;
-        transition: all 0.65s ease-in-out;
+    animation-delay: 0.25s !important;
 }
 
 .colab {
@@ -127,14 +130,10 @@ margin: 140px 150px 0px;
 .colab img {
     height: 350px;
     border-radius: 14px;
-
-}
-
-.colab img {
-    height: 350px;
     margin-top: 40px;
 
 }
+
 
 .colab h2 {
     text-align: center;
@@ -187,7 +186,7 @@ margin: 140px 150px 0px;
     border: 0 solid none;
     border-radius: 14px;
     transition: all 0.2s linear;
-    
+
 }
 
 .colabLink:hover {
@@ -207,37 +206,35 @@ margin: 140px 150px 0px;
 /* ############## Contact ################# */
 
 
-#contact{
+#contact {
     height: calc(100vh - 256px);
     display: flex;
     flex-direction: column;
     margin: 0 100px;
 }
 
-#contact a{
-text-decoration: none;
-color: black;
-font-weight: bold;
-font-size: 4rem;
+#contact a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 4rem;
     font-family: 'Playfair Display', serif;
     font-style: italic;
 }
 
-#contact a:hover{
-text-decoration: none;
-color: rgb(51, 51, 51);
-font-weight: bold;
-font-size: 4rem;
-font-style: italic;
+#contact a:hover {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    font-size: 4rem;
+    font-style: italic;
     font-family: 'Playfair Display', serif;
     transition: all 0.2s ease-in-out;
 }
 
 
 
-#contact p{
+#contact p {
     font-family: Lato, sans-serif;
     font-size: 1.5rem;
 }
-
-
