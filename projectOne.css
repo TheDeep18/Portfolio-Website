@@ -1,25 +1,41 @@
-#caseStudy{
-    padding: 60px;
+#caseStudy {
+    padding: 0px 60px;
     font-family: 'Roboto', sans-serif;
     font-size: 1.1rem;
 }
 
-
-/* ####################  Project Overview  ################ */
-#overview h1{
-    text-align: center;
-    margin-bottom: 60px;
+.headingEach{
+        width: 30%;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            padding: 20px 40px;
+            border: 0px solid none;
+            border-radius: 14px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            margin-top: 100px;
 }
 
+.divEach{
+    margin: 150px 100px;
+}
+
+.divEach p{
+    color: #555;
+}
+
+/* ####################  Project Overview  ################ */
 
 
-.productImg{
+
+
+.productImg {
     height: 140px;
     position: relative;
     top: 0;
 }
 
-.productContainer{
+.productContainer {
     /* border: 1px solid black; */
     margin: auto;
     width: 38%;
@@ -29,33 +45,38 @@
     padding: 14px;
     margin-bottom: 20px;
     height: 200px;
- 
+
+
 }
 
-.productContainer h3{
+
+
+.productContainer h3 {
     margin-bottom: 14px;
 }
 
-.overviewOne{
+.overviewOne {
     display: flex;
 }
-.overviewTwo{
+
+.overviewTwo {
     /* height: 400px; */
     display: flex;
 }
-.overviewThree{
+
+.overviewThree {
     display: flex;
 }
 
 
 /* #################### Prototype #################### */
 
-#proto{
+#proto {
     display: flex;
     justify-content: center;
 }
 
-#proto img{
+#proto img {
     height: 550px;
     /* border: 1px solid black;
     justify-content: center; */
@@ -70,22 +91,14 @@
 
 /* ################ Understanding the user ################ */
 
-#understandingTheUser{
-    margin: 200px 100px;
-    /* margin-bottom: 80px; */
+
+
+#understandingTheUser p {
+    margin: 20px;
+    margin: 60px;
 }
 
-#understandingTheUser h1{
-    text-align: center;
-    margin: 20px;
-    margin-bottom: 60px;
-}
-#understandingTheUser p{
-    margin: 20px;
-    margin-bottom: 60px;
-}
-
-.questions{
+.questions {
     margin: 20px;
     display: flex;
     justify-content: space-between;
@@ -95,11 +108,15 @@
 .questions li {
     height: 40px;
     list-style: none;
+    display: flex;
     padding: 20px;
-    border-left: 4px solid #c62828;
     justify-content: center;
     align-items: center;
     width: 220px;
+    border-left: 4px solid #c82828;
+        border: 0px solid none;
+            /* border-radius: 14px; */
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
 }
 
@@ -108,78 +125,72 @@
 
 /* ########## User research summary ################ */
 
-#userResearchSummary {
-    margin: 200px 100px;
-    /* margin-bottom: 80px; */
-}
 
-#userResearchSummary h1{
-        text-align: center;
-            margin: 20px;
-            margin-bottom: 60px;
-}
 
-#userResearchSummary p{
+#userResearchSummary p {
     margin: 20px;
-        margin-bottom: 60px;
+    margin-bottom: 60px;
+    border-left: 4px solid #c82828;
+    padding-left: 8px;
+    height: 60px;
+    align-items: center;
+    display: flex;
+
+
 }
 
 
 
 /* ######################## Pain Point ################### */
 
-#painPoints {
-margin: 200px 100px;
-}
 
-#painPoints h1{
-    text-align: center;
-}
 
-.painPointNo{
+
+.painPointNo {
     height: 100px;
 }
 
-.painPointContainer{
+.painPointContainer {
     display: flex;
     justify-content: space-between;
 
 }
 
-.painPointDiv{
+.painPointDiv {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px;
+    padding: 20px;
     width: 400px;
+        border-top: 4px solid #c82828;
+        border: 0px solid none;
+        /* border-radius: 14px; */
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            margin: 40px;
+        }
+
+.painPointDiv h4 {
+    text-align: center;
+    margin-bottom: 10px;
 }
 
-.painPointDiv h4{
- text-align: center;
- margin-bottom: 10px;
-}
-
-.painPointDiv p{
- text-align: center;
- margin-bottom: 10px;
+.painPointDiv p {
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 
 /* ############ Meet the Users ################ */
 
-#users{
-margin: 200px 100px;
-}
-#users h1{
-    text-align: center;
-}
 
-.users{
+
+.users {
     display: flex;
 }
 
-.userImg img{
-    height: 50vh;
+.userImg img {
+    margin: 20px 40px;
+    height: 40vh;
 }
 
 
@@ -187,135 +198,178 @@ margin: 200px 100px;
 
 /* ####### Competitve analysis ###############  */
 
-#competetiveAnalysis{
-margin: 200px 100px;
-}
 
-#competetiveAnalysis h1{
-    text-align: center;
-
-}
-
-#competetiveAnalysis p{
+#competetiveAnalysis p {
     margin: 20px;
 }
 
-#competetiveAnalysis li{
+#competetiveAnalysis li {
     margin-left: 40px;
+    margin-bottom: 8px;
     list-style: none;
     font-weight: bold;
-    padding: 8px 0;
+    padding: 8px;
+    border-left: 4px solid #c82828;
 }
 
 
 
 /* ################ affinity ########### */
-#affinity{
-margin: 200px 100px;
-}
 
 
-#affinity p{
-    margin:20px
+#affinity p {
+    margin: 20px
 }
 
 
 
 /* ############## user flow ############# */
 
-
-#userFlow{
-    margin: 200px 100px;
-}
-
-#userFlow h1{
-text-align: center;
-}
-
-#userFlow p{
+#userFlow p {
     margin: 20px;
 }
 
+.userFlowImg img{
+    width: 94vw;
+}
 
 /* ########### paper wireframes ############### */
 
-#paperWireframes{
-margin: 200px 100px;
-}
 
-#paperWireframes h1{
-    text-align: center;
-}
-
-#paperWireframes p{
+#paperWireframes p {
     margin: 20px;
+}
+
+.paperWireframes{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.paperWireframes img{
+    height: 60vh;
+    /* width: 80vw; */
 }
 
 
 /* ################ Digital wireflow ########### */
-#digitalWireflow{
-margin: 200px 100px;
-}
 
-#digitalWireflow h1{
-text-align: center;
-}
-
-#digitalWireflow p{
+#digitalWireflow p {
     margin: 20px;
 }
 
+.lofi{
+    display: flex;
+    justify-content: center;
+}
 
 /* ############## Iterations ############### */
-#iterations{
-margin: 200px 100px;
+
+
+#iterations h3{
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px 40px;
+    border: 0px solid none;
+    border-radius: 14px;
 }
 
-#iterations h1, h3{
-    text-align: center;
-}
-
-#iterations p{
+#iterations p {
     margin: 20px;
 }
 
-
-/* ############ Style guide ########### */
-#styleGuide{
-margin: 200px 100px;
+.iterationsDesc{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
 }
-
-#styleGuide h1{
+.iterationsDescOne, .iterationsDescTwo{
+    display: flex;
+    flex-direction: row;
+    
+}
+.desc{
+    display: flex;
     text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+    /* border: 0.5px solid gainsboro; */
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    margin: 14px;
 }
 
-#styleGuide p{
+
+/* ################## Refinign the designs ############### */
+
+.redesignedImg img{
+    height: 60vh;
+}
+
+#redesigned{
+    display: flex;
+    justify-content: center;
+        margin: 40px 0px;
+}
+
+.cutomization{
+    display: flex;
+    justify-content: center;
+    height: 72vh;
+}
+/* ############ Style guide ########### */
+
+
+#styleGuide p {
     margin: 20px;
 }
 
 
 /* ######## Takeaways ########### */
-#takeAways{
-    margin: 200px 100px;
-}
 
-#takeAways h1{
-    text-align: center;
-}
-
-#takeAways p{
+#takeAways p {
     margin: 20px;
 }
 
 /* ############## Let's Connect ############### */
-#letsConnect{
-margin: 200px 100px;
-}
 
-#letsConnect h1{
-    text-align: center;
-}
 
-#letsConnect p{
+#letsConnect p {
     margin: 20px;
+}
+
+#contact {
+    height: calc(100vh - 328px);
+    display: flex;
+    flex-direction: column;
+    margin: 40px 100px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 4rem;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+
+#contact a:hover {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    font-size: 4rem;
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+    transition: all 0.2s ease-in-out;
+}
+
+
+
+#contact p {
+    font-family: Lato, sans-serif;
+    font-size: 1.5rem;
 }

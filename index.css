@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     /* overflow-x: hidden; */
+    scroll-behavior: smooth;
 }
 
 
@@ -13,9 +14,16 @@
     justify-items: center;
     align-items: center;
     justify-content: space-between;
-    width: 98vw;
-    height: 250px;
+    width: 100vw;
+    height: 84px;
     margin: auto;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
+    
+
 }
 
 #logo{
@@ -72,6 +80,80 @@
 }
 
 
+/* ################ Introduction ################# */
+
+#introduction{
+    height: calc(100vh - 120px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+        position: relative;
+            top: 84px;
+    /* margin-top: 120px; */
+    
+}
+
+.intro h1{
+    font-size: 4rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.intro p{
+    font-family: 'Lato', serif;
+    padding: 14px 0 ;
+    font-size: 1.6rem;
+    letter-spacing: 6px;
+
+}
+
+.intro a{
+    font-family: 'Lato', serif;
+    text-decoration: none;
+
+    padding: 14px 0 ;
+    font-size: 1.5rem;
+            background-color: rgb(248, 248, 248);
+            color: #ceb072;
+            justify-content: center;
+            align-items: center;
+            margin: 30px;
+            padding: 5px 15px;
+            display: flex;
+            border: 0 solid none;
+            border-radius: 14px;
+            transition: all 0.2s ease-in;
+            letter-spacing: 4px;
+
+}
+
+.intro a:hover{
+        text-decoration: none;
+            color: white;
+            justify-content: center;
+            align-items: center;
+            margin: 30px;
+            background-color: #ceb072;
+            padding: 5px 15px;
+            display: flex;
+            border: 0 solid none;
+            border-radius: 14px;
+}
+
+.introImg img{
+    height: calc(100vh - 64px);
+    width: auto;
+    margin-right: 40px;
+    
+}
+
+.intro{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: 200px;
+}
 
 
 /* Body projects  */
@@ -143,8 +225,11 @@
 
 
 
-footer{
-    margin: 20px;
-    font-family: 'Roboto', sans-serif;
+/* ########## footer ############### */
+/* ############## footer ################# */
+footer {
+    padding: 20px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
     text-align: center;
 }
