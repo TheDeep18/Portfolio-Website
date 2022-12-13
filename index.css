@@ -1,13 +1,29 @@
-*{
+* {
     padding: 0;
     margin: 0;
     /* overflow-x: hidden; */
+    font-family: Lato, sans-serif;
     scroll-behavior: smooth;
 }
 
 
+.heading {
+    margin: 250px 150px 0px;
+}
+
+.heading::before {
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 1px;
+    background: #555;
+    vertical-align: top;
+    margin-top: 11px;
+    margin-right: 10px;
+}
+
 /* Navbar */
-#navbar{
+#navbar {
     /* border: 5px solid black; */
     display: flex;
     flex-direction: row;
@@ -22,11 +38,11 @@
     top: 0px;
     background-color: white;
     box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
-    
+
 
 }
 
-#logo{
+#logo {
     margin: 20px;
     display: flex;
     flex-direction: row;
@@ -35,16 +51,16 @@
     font-family: 'Roboto', sans-serif;
 }
 
-#links{
+#links {
     padding: 14px;
     display: flex;
     text-align: center;
     list-style: none;
-    
+
 }
 
 
-#links a{
+#links li a {
     text-decoration: none;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
@@ -54,21 +70,23 @@
     margin-bottom: 4px;
     display: flex;
     text-align: center;
-    
+
 }
 
-#links:hover a{
+
+
+#links a:hover {
     cursor: pointer;
     padding: 14px;
     font-family: 'Roboto', sans-serif;
-    color: black;
+    color: #ba9043;
     display: flex;
     text-align: center;
     /* border-bottom: 1px solid black; */
 
 }
 
-#links a:active{
+#links a:active {
     cursor: pointer;
     padding: 14px;
     font-family: 'Roboto', sans-serif;
@@ -80,73 +98,73 @@
 }
 
 
-/* ################ Introduction ################# */
+/* ################### Introduction ############# */
 
-#introduction{
+#introduction {
     height: calc(100vh - 120px);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-        position: relative;
-            top: 84px;
+    position: relative;
+    top: 84px;
     /* margin-top: 120px; */
-    
+
 }
 
-.intro h1{
+.intro h1 {
     font-size: 4rem;
     font-family: 'Playfair Display', serif;
 }
 
-.intro p{
+.intro p {
     font-family: 'Lato', serif;
-    padding: 14px 0 ;
+    padding: 14px 0;
     font-size: 1.6rem;
     letter-spacing: 6px;
 
 }
 
-.intro a{
+.intro a {
     font-family: 'Lato', serif;
     text-decoration: none;
 
-    padding: 14px 0 ;
+    padding: 14px 0;
     font-size: 1.5rem;
-            background-color: rgb(248, 248, 248);
-            color: #ceb072;
-            justify-content: center;
-            align-items: center;
-            margin: 30px;
-            padding: 5px 15px;
-            display: flex;
-            border: 0 solid none;
-            border-radius: 14px;
-            transition: all 0.2s ease-in;
-            letter-spacing: 4px;
+    background-color: rgb(248, 248, 248);
+    color: #ceb072;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 5px 15px;
+    display: flex;
+    border: 0 solid none;
+    border-radius: 14px;
+    transition: all 0.2s ease-in;
+    letter-spacing: 4px;
 
 }
 
-.intro a:hover{
-        text-decoration: none;
-            color: white;
-            justify-content: center;
-            align-items: center;
-            margin: 30px;
-            background-color: #ceb072;
-            padding: 5px 15px;
-            display: flex;
-            border: 0 solid none;
-            border-radius: 14px;
+.intro a:hover {
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    background-color: #ceb072;
+    padding: 5px 15px;
+    display: flex;
+    border: 0 solid none;
+    border-radius: 14px;
 }
 
-.introImg img{
+.introImg img {
     height: calc(100vh - 64px);
     width: auto;
     margin-right: 40px;
-    
+
 }
 
-.intro{
+.intro {
     /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
@@ -156,74 +174,219 @@
 }
 
 
-/* Body projects  */
+/* ############# Projects ################## */
 
-#projects{
-    width: 98vw;
+.posterOne {
+    height: 300px;
+    width: 600px;
+    border: 0px solid none;
+    border-radius: 14px;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    box-shadow: 0 10px 40px 0 rgb(0 0 0 / 10%);
+}
+
+.posterOne img {
+    height: 300px;
+    width: 600px;
+    border: 0px solid none;
+    border-radius: 14px;
+    transition: all 0.65s ease-in-out;
+}
+
+
+.posterOne:hover img {
+    transform: scale(1.05);
+    animation-delay: 0.25s !important;
+}
+
+.posterTwo {
+    height: 300px;
+    width: 600px;
+    border: 0px solid none;
+    border-radius: 14px;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    box-shadow: 0 10px 40px 0 rgb(0 0 0 / 10%);
+}
+
+.posterTwo img {
+    height: 40vh;
+    width: 34vw;
+    padding: 20px;
+    border: 0px solid none;
+    border-radius: 14px;
+    transition: all 0.65s ease-in-out;
+}
+
+
+.posterTwo:hover img {
+    transform: scale(1.05);
+    animation-delay: 0.25s !important;
+}
+
+
+.descTwo {
+
     display: flex;
+    justify-content: space-evenly;
     flex-direction: column;
+}
+
+.descTwo h1 {
+    margin-left: 20px;
+}
+
+.descTwo p {
+    margin-left: 20px;
+    color: gray;
+    font-size: 20px;
+}
+
+.projItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 115px;
+    margin-bottom: 230px;
+}
+
+.desc {
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.desc h1 {
+    margin-bottom: 18px;
+
+}
+
+.desc p {
+    color: gray;
+    font-size: 20px;
+}
+
+
+.keywords {
+    display: flex;
+    flex-direction: row;
+}
+
+.keywords span {
+    margin: 20px;
+    margin-bottom: 8px;
+    padding: 5px 15px;
+    background-color: rgb(248, 248, 248);
+    color: gray;
+    border: 0 solid none;
+    border-radius: 14px;
+    justify-content: space-between;
+}
+
+
+.colabLink {
+    text-decoration: none;
+    background-color: rgb(248, 248, 248);
+    color: #ceb072;
     justify-content: center;
     align-items: center;
-    justify-items: center;
+    margin: 7px 20px;
+    padding: 5px 15px;
+    display: flex;
+    border: 0 solid none;
+    border-radius: 14px;
+    transition: all 0.2s linear;
+
 }
 
-
-#projects a{
+.colabLink:hover {
     text-decoration: none;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 7px 20px;
+    background-color: #ceb072;
+    padding: 5px 15px;
+    display: flex;
+    border: 0 solid none;
+    border-radius: 14px;
 }
 
 
-.projectOne{
-    background-image: url("./img/project front page/1.png");
-}
+/* ################### Extra Work ###################  */
 
-.projectTwo{
-    background-image: url("./img/project front page/2.png");
-}
+#extraWork {
+    width: 70vw;
+margin: 53px auto 146px;
+    display: flex;
+    justify-content: center;
 
-.projectThree{
-    background-image: url("./img/project front page/3.png");
-}
-
-
-
-
-
-
-
-
-.projectItem{
-    width: 60vw;
-        height: 281px;
-        transition: 0.5s; 
-        display: flex; 
-        justify-items: center;
-        justify-content: center;
-        align-items: center;
-        background-position: center;
-        background-size: cover;
-        margin-bottom: 20px;
-}
-
-.projectItem p{
-    font-family: 'Roboto', sans-serif;
-        opacity: 0;
-        transform: scale(0);
-        transition: 0.8s;
-        font-size: 3rem;
-        color: black;
-}
-
-.projectItem:hover{
-        box-shadow: 0 0 0 200px rgba(186, 144, 67, 0.96) inset;
-}
-
-.projectItem:hover p{
-        opacity: 1;
-            transform: scale(1);
 }
 
 
+.extraWork img {
+    transition: all 0.65s ease-in-out;
+
+}
+
+.extraWork:hover img {
+    transform: scale(1.05);
+    animation-delay: 0.25s !important;
+}
+
+
+/* ################## sketches #######################  */
+
+#drawings {
+    padding: 20px;
+    border: 0 solid none;
+    border-radius: 14px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#drawings img {
+    height: 350px;
+    border-radius: 14px;
+    /* margin-top: 40px; */
+    border: 2px solid #6d5242;
+}
+
+
+/* ############## Contact ################# */
+
+
+#contact {
+    height: calc(100vh - 256px);
+    display: flex;
+    flex-direction: column;
+    margin: 0 100px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 4rem;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+
+#contact a:hover {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    font-size: 4rem;
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+    transition: all 0.2s ease-in-out;
+}
+
+
+
+#contact p {
+    font-family: Lato, sans-serif;
+    font-size: 1.5rem;
+}
 
 /* ########## footer ############### */
 /* ############## footer ################# */

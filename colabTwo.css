@@ -1,0 +1,432 @@
+.divMain h5 {
+    margin: 14px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.divMain h5::before {
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 1px;
+    background: #555;
+    vertical-align: top;
+    margin-top: 11px;
+    margin-right: 10px;
+}
+
+
+
+#caseStudyColabTwo{
+        /* padding: 0px 60px; */
+            font-family: 'Roboto', sans-serif;
+            font-size: 1.1rem;
+}
+
+
+/* ################## introduction ################### */
+
+#introductionColabTwo {
+    height: calc(100vh - 3px);
+    /* position: relative;
+    top: 84px; */
+    background-color: #c8e6c9;
+    /* background-color: #f6e0b5; */
+    display: flex;
+    padding: 74px;
+    padding-left: 150px;
+    justify-content: center;
+
+}
+
+
+.introDesc {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    font-size: 1.4rem;
+
+}
+
+.introDesc h1 {
+    margin-bottom: 20px;
+}
+
+.introDesc p {
+    margin: 20px 0px;
+}
+
+.introImgColabTwo {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.introImgColabTwo img {
+    height: 400px;
+}
+
+.introColabTwo {
+    margin: 20px;
+    width: 40vw;
+}
+
+
+
+
+
+/* ######################## Project Overview ############## */
+
+.projectOverview {
+    display: flex;
+    justify-content: center;
+}
+
+.projectOverview img {
+    height: 80vh;
+    padding: 80px;
+}
+
+
+
+
+/* #################### Problem ################# */
+
+#problem {
+    display: flex;
+    flex-direction: row;
+    background-color: #e3f2fd;
+}
+
+.problemImg img {
+    height: 400px;
+}
+
+.problemDesc {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    font-size: 1.4rem;
+
+}
+
+.problemDesc span {
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.problemDesc h5 {
+    margin-bottom: 20px;
+}
+
+.problemDesc p {
+    margin: 20px 0px;
+}
+
+.problem {
+    margin: 40px;
+    /* border: 1px solid black; */
+    /* width: 40vw; */
+}
+
+
+
+
+
+/* ####################### Initital Research ################  */
+
+#initialResearch {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+}
+
+.initialResearch {
+    /* width: 40vw; */
+    /* border: 1px solid black; */
+    margin: 20px;
+
+}
+
+.initialResearchImg {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.initialResearchImg img {
+    height: 300px;
+
+}
+
+.initialResearchDesc {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    font-size: 1.4rem;
+}
+
+.initialResearchDesc h5 {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 20px;
+}
+
+.initialResearchDesc p {
+    padding-left: 40px;
+    display: flex;
+    justify-content: right;
+    margin: 20px 0px;
+}
+
+
+
+
+
+/* ################# Technologies used worldwide
+ ###############  */
+
+#technologies {
+    /* display: flex; */
+    justify-content: center;
+    height: 87vh;
+    padding: 30px;
+    background-color: #f9fbe7;
+}
+
+
+.technoDesc {
+    width: 60vw;
+}
+
+.technoList {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.technoListItemMain {
+    display: flex;
+    flex-direction: row;
+}
+
+.technoListItem {
+    /* border: 1px solid black; */
+    border-radius: 14px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 120px;
+    width: 120px;
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+
+
+}
+
+/* ############# First Proto ###############  */
+#firstPrototype {
+    /* background-color: #eeeeee; */
+    display: flex;
+    height: 87vh;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.firstProtoImg {
+    /* border: 1px solid black; */
+    border-radius: 14px;
+    width: 70vw;
+    display: flex;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    align-content: center;
+    justify-content: center;
+}
+
+.firstProtoDesc {
+    display: flex;
+    justify-content: center;
+}
+
+/* ############# First Proto iterations ############## */
+#firstProtoIteration {
+    margin: 180px 80px;
+}
+
+
+
+.firstProtoIterationDesc {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.desc {
+    height: 20vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+    /* border: 0.5px solid gainsboro; */
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    margin: 14px;
+    padding: 14px;
+}
+
+
+/* ############# Final Proto ###############  */
+#finalPrototype {
+    /* background-color: #eeeeee; */
+    display: flex;
+    height: 87vh;
+    margin: 82px 0px;
+    padding: 40px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.finalProtoImg {
+    /* border: 1px solid black; */
+    border-radius: 14px;
+    width: 40vw;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.finalProtoDesc {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/* ################ Final Video #######################  */
+
+
+.firstProtoVid {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 14px;
+    width: 16vw;
+    display: flex;
+    /* align-content: center; */
+    justify-content: center;
+}
+
+.firstProtoVidMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* ##################### Takeaways ############################ */
+#takeAways {
+    margin: 150px 0px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.takeawayDesc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70vw;
+    margin: auto;
+}
+
+#takeAways p {
+    color: #555;
+    margin: 20px;
+}
+
+
+/* ##################### Future Aspects ############################ */
+#futureAspects {
+    margin: 75px 0px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.futureAspectsDesc {
+    display: flex;
+    width: 70vw;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+#futureAspects p {
+    color: #555;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/* ############## Contact ################# */
+
+
+#contact {
+    height: calc(100vh - 130px);
+    display: flex;
+    flex-direction: column;
+    margin: 0 100px;
+    justify-content: center;
+}
+
+#contact a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 4rem;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+
+#contact a:hover {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    font-size: 4rem;
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+    transition: all 0.2s ease-in-out;
+}
+
+
+
+#contact p {
+    font-family: Lato, sans-serif;
+    font-size: 1.5rem;
+}

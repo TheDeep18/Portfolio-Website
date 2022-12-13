@@ -98,7 +98,7 @@ height: calc(100vh - 64px);
 #contact {
     display: flex;
     flex-direction: column;
-margin: 266px 100px 107px;
+margin: 160px 100px 0px;
 }
 
 #contact a {

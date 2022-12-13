@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.sketchMainDuo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sketchMainDuoSingle{
+    display: flex;
+    justify-content: center;
+}
+
+#sketchMain{
+    display: flex;
+    flex-direction: column;
+}
+.sketchItem img{
+height: 74vh;
+    width: 37vw;
+    margin: 80px;
+    
+}
+
+.sketchItemDifferent img{
+        height: 20vh;
+            width: 40vw;
+            margin: 40px;
+}
