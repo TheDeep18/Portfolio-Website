@@ -317,9 +317,9 @@
 
 #extraWork {
     width: 70vw;
-margin: 53px auto 146px;
+    margin: 50px auto 150px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 
 }
 
@@ -332,6 +332,23 @@ margin: 53px auto 146px;
 .extraWork:hover img {
     transform: scale(1.05);
     animation-delay: 0.25s !important;
+}
+
+/* ############################ Daily UI ######################  */
+
+#dailyUI {
+    padding: 20px;
+    border: 0 solid none;
+    border-radius: 14px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+#dailyUI img {
+    height: 350px;
+    border-radius: 14px;
+    /* margin-top: 40px; */
+    border: 2px solid #887d87;
 }
 
 
@@ -357,9 +374,10 @@ margin: 53px auto 146px;
 
 #contact {
     height: calc(100vh - 256px);
-    display: flex;
-    flex-direction: column;
-    margin: 0 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 120px 100px 0px;
 }
 
 #contact a {

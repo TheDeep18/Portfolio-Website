@@ -1,0 +1,6 @@
+.dailyUIItem {
+    display: flex;
+    margin: 100px auto;
+    width: auto;
+    justify-content: center;
+}
