@@ -1,0 +1,502 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+#caseStudy {
+    margin: 0px 50px;
+}
+
+
+.heading {
+    color: #070806;
+    margin: 132px auto 14px;
+    /* float: right; */
+    display: flex;
+    width: 80vw;
+    flex-direction: row-reverse;
+    /* font-family: 'Bebas Neue', cursive; */
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.heading::after {
+    color: #070806;
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 1px;
+    background: #555;
+    vertical-align: top;
+    margin-top: 11px;
+    margin-right: 10px;
+}
+
+.scroll {
+    margin: auto;
+    padding: 4px;
+    width: 74vw;
+    justify-content: center;
+    display: flex;
+    border: 30px solid #222222;
+    border-radius: 10px;
+    overflow-y: scroll;
+    max-height: 460px;
+}
+
+.mobileScroll {
+    margin: auto;
+    padding: 4px;
+    width: 32vw;
+    justify-content: center;
+    display: flex;
+    border: 24px solid #222222;
+    border-radius: 14px;
+    overflow-y: scroll;
+    max-height: 460px;
+}
+
+
+/* Navbar */
+#navbar {
+    /* border: 5px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 84px;
+    margin: auto;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
+
+
+}
+
+#logo {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#links {
+    padding: 14px;
+    display: flex;
+    text-align: center;
+    list-style: none;
+
+}
+
+
+#links li a {
+    text-decoration: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    padding: 14px;
+    margin: 10px;
+    margin-bottom: 4px;
+    display: flex;
+    text-align: center;
+
+}
+
+
+
+#links a:hover {
+    cursor: pointer;
+    padding: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #ba9043;
+    display: flex;
+    text-align: center;
+    /* border-bottom: 1px solid black; */
+
+}
+
+#links a:active {
+    cursor: pointer;
+    padding: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #ba9043;
+    display: flex;
+    text-align: center;
+    /* border-bottom: 1px solid black; */
+
+}
+
+
+/* #################### Introduction #####################  */
+#overview {
+    margin: 100px 0 0;
+}
+
+
+#overviewImg img {
+    width: 1349px;
+    margin-top: 53px;
+}
+
+
+#product {
+    border: 1px solid #727272;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+    align-items: center;
+    margin: auto;
+    padding: 40px;
+}
+
+
+
+.overview {
+    display: flex;
+    flex-direction: column;
+    height: 78px;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    width: 10vw;
+}
+
+.overview h3 {
+    color: #070806;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.overview p {
+    color: #2c2c2c;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+
+
+#aim {
+    border: 1px solid #727272;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 40px;
+    justify-content: center;
+    margin: 14px auto;
+}
+
+#aim h3 {
+    margin: 0px 0px 14px;
+    color: #070806;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#aim p {
+    color: #2c2c2c;
+    font-family: 'Fjalla One', sans-serif;
+
+}
+
+
+
+
+/* #################### paper Wireframes ###########################         */
+
+
+
+#paperWireframe img {
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+
+
+/* #################### lofi ###########################         */
+
+
+
+
+#lofiPrototypePetHouse img {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+/* #################### hifi ###########################         */
+
+#hifiPrototypePetHouse img {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+/* #################### components ###########################         */
+
+.componentImg {
+    width: 80vw;
+    flex-direction: column;
+    justify-content: center;
+    margin: 14px auto;
+}
+
+.componentDiv {
+    margin: 14px 0px;
+    width: 80vw;
+    flex-direction: row;
+    justify-content: center;
+    margin: 14px auto;
+}
+
+.componentDiv img:first-child {
+    width: 58vw;
+}
+
+.componentDiv img:nth-child(2) {
+    width: 21vw;
+}
+
+.componentsPetHouse {
+    display: flex;
+    flex-direction: column;
+}
+
+/* #################### styleguide ###########################         */
+
+
+#styleGuidePetHouse {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+
+/* #################### Final laptop design ###################  */
+#finalLaptopDesignPetHouse img {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+
+/* ####################### mobileDesignScrolls ##############  */
+#mobileDesignScrolls {
+    display: flex;
+    flex-direction: row;
+}
+
+.mobileScroll img {
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+
+
+
+/* ############# mobileDesignLoFi ############  */
+#mobileDesignLoFi img {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+
+
+/* ############# mobileDesignHiFi ############  */
+#mobileDesignHiFi img {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+
+/* ######################## mobileDesign ################  */
+#mobileDesign img {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+/* ##################### Takeaways ############################ */
+#takeAways {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.takeawayDesc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70vw;
+    margin: auto;
+}
+
+#takeAways p {
+    color: #2c2c2c;
+    margin: 20px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+
+/* ##################### Future Aspects ############################ */
+#futureAspects {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.futureAspectsDesc {
+    display: flex;
+    width: 70vw;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+#futureAspects p {
+    color: #2c2c2c;
+    margin: 20px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+
+
+/* ########## nextPrevious Links ################## */
+
+#nextPreviousLinks {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 200px;
+}
+
+.nextPrevLinks {
+    display: flex;
+    margin: auto;
+    width: 80vw;
+    justify-content: center;
+}
+
+#nextPreviousLinks li {
+    list-style: none;
+}
+
+#nextPreviousLinks li a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    padding: 14px;
+    margin: 10px;
+    margin-bottom: 4px;
+    display: flex;
+    text-align: center;
+
+}
+
+#nextPreviousLinks span {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+
+}
+
+
+
+#nextPreviousLinks a:hover {
+    cursor: pointer;
+    padding: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #ba9043;
+    display: flex;
+    text-align: center;
+    /* border-bottom: 1px solid black; */
+
+}
+
+#nextPreviousLinks a:active {
+    cursor: pointer;
+    padding: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #ba9043;
+    display: flex;
+    text-align: center;
+    /* border-bottom: 1px solid black; */
+
+}
+
+
+
+
+
+
+
+
+
+
+/* ############## Contact ################# */
+
+
+#contact {
+    height: calc(100vh - 256px);
+    display: flex;
+    flex-direction: column;
+    margin: 0 100px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 4rem;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+
+#contact a:hover {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    font-size: 4rem;
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+    transition: all 0.2s ease-in-out;
+}
+
+
+
+#contact p {
+    font-family: Lato, sans-serif;
+    font-size: 1.5rem;
+}
+
+
+/* ############## footer ################# */
+footer {
+    padding: 20px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
+    text-align: center;
+}

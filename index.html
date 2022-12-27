@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>deepAdalja</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./index.css">
     <link
-        href="https://fonts.googleapis.com/css2?family=Finger+Paint&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Licorice&family=Merriweather:wght@300;400&family=Open+Sans:wght@400;500&family=Oxygen:wght@300;400;700&family=Playfair+Display:ital@0;1&family=Roboto:wght@300;400&family=Solway:wght@300;400;500&family=Ubuntu&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Allura&family=Basic&family=Dancing+Script:wght@700&family=Finger+Paint&family=Great+Vibes&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Licorice&family=Merriweather:wght@300;400&family=Open+Sans:wght@400;500&family=Oxygen:wght@300;400;700&family=Pacifico&family=Parisienne&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Mono:ital,wght@0,200;0,300;0,400;1,300&family=Roboto:wght@300;400&family=Sacramento&family=Solway:wght@300;400;500&family=Ubuntu&display=swap"
         rel="stylesheet">
 </head>
 
@@ -21,10 +21,11 @@
             </div>
         </div>
         <div id="links">
-            <li><a href="#myWork">myWork</a></li>
-            <li><a href="./aboutMe.html">aboutMe</a></li>
-            <li><a href="#contact">contact</a></li>
-            <li><a href="https://drive.google.com/file/d/1tIAGyebp3swFNNiiZGx92EC6ZRyHTiWD/view?usp=share_link"
+            <li><a class="aLinks" href="#myWork">myWork</a></li>
+            <li><a class="aLinks" href="./aboutMe.html">aboutMe</a></li>
+            <li><a class="aLinks" href="#contact">contact</a></li>
+            <li><a class="aLinks"
+                    href="https://drive.google.com/file/d/1tIAGyebp3swFNNiiZGx92EC6ZRyHTiWD/view?usp=share_link"
                     target="_blank">resume</a></li>
         </div>
     </nav>
@@ -61,40 +62,118 @@
                 <span>Lo/Hi - Fi prototyping</span>
             </div>
         </div>
-        <div class="posterOne">
-            <a href="./projectOne.html"><img src="./img/project front page/bakery.png" alt=""></a>
+        <div class="posterOne poster">
+            <a href="./projectOne.html" aria-disabled="true"><img src="./img/project front page/bakery.png" alt=""></a>
         </div>
     </div>
+
+    <div id="projTwo" class="projItem">
+        <div class="posterTwo poster">
+            <a href="./projectTwo.html"><img src="./img/project front page/designOverview.png" alt=""></a>
+        </div>
+        <div class="descTwo desc">
+            <h1>PetHouse</h1>
+            <p>Promt: Design a Responsive Website for a pet shelter.</p>
+            <div class="keywords">
+                <span>UI design</span>
+                <span>Responsive Design</span>
+                <span>Mobile Design</span>
+            </div>
+            <div class="keywords">
+                <span>Web Design</span>
+                <span>Lo/Hi - Fi prototyping</span>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <div id="projThree" class="projItem">
+        <div class="descThree desc">
+            <h1>Social Good</h1>
+            <p>Promt: Design an app for social good</p>
+            <div class="keywords">
+                <span>Empathy</span>
+                <span>Social Good</span>
+                <span>User Journey</span>
+            </div>
+            <div class="keywords">
+                <span>App Design</span>
+                <span>UX Research</span>
+
+            </div>
+        </div>
+        <div class="posterThree poster">
+            <a href="./projectThree.html"><img src="./img/project front page/cloths donation.png" alt=""></a>
+        </div>
+    </div> -->
+
 
     <div>
         <h5 class="heading">Collaborations</h5>
     </div>
 
 
-    <div id="projOne" class="projItem">
-        <div class="posterTwo">
-            <a href="./colabTwo.html"><img src="./img/project front page/firstProtoImg2.png" alt=""></a>
+    <div id="collaborations">
+
+
+
+        <div id="colabTwo" class="colab">
+            <div class="colabPosterTwo colabPoster">
+                <a href="./colabTwo.html"><img src="./img/project front page/navigation.png" alt="" height="100px"></a>
+            </div>
+            <div class="colabDescTwo desc">
+                <h2>Indoor Navigation System</h2>
+                <p>Solving a Problem that We were facing when we first came to the campus</p>
+                <div class="colabKeywords">
+                    <span>Mobile app design</span>
+                    <span>Problem solving</span>
+                    <span>Navigation</span>
+                </div>
+                <div class="colabKeywords">
+                    <span>P5.js</span>
+                    <span>Frontend</span>
+
+                </div>
+
+                <div>
+                    <a class="colabLink" target="_blank" href="https://thedeep18.github.io/smartroutevgec/">Final
+                        Product(Mobile first)</a>
+                </div>
+            </div>
+
         </div>
-        <div class="descTwo">
-            <h1>Indoor Navigation System</h1>
-            <p>Solving a Problem that We were facing when we first came to the campus</p>
-            <div class="keywords">
-                <span>Mobile app design</span>
-                <span>Problem solving</span>
-                <span>Navigation</span>
-            </div>
-            <div class="keywords">
-                <span>P5.js</span>
-                <span>Frontend</span>
 
+        <div id="colabOne" class="colab">
+            <div class="colabPosterOne colabPoster">
+                <a href="./colabOne.html"><img src="./img/project front page/nutriet square.png" alt=""
+                        height="100px"></a>
+            </div>
+            <div class="colabDescOne desc">
+                <h2>Nutrition and Diet Chatbot</h2>
+                <p>Our batchmates were complainig about their depression and anxieties,
+                    so we did some research in our
+                    campus hostels...</p>
+                <div class="colabKeywords">
+                    <span>Health</span>
+                    <span>Nutrition</span>
+                    <span>Diet</span>
+                </div>
+                <div class="colabKeywords">
+                    <span>App Design</span>
+                    <span>Health Research</span>
+
+                </div>
+
+                <div>
+                    <p class="colabLink" aria-disabled="true" role="link" href="">Final
+                        Product(Coming Soon...)</p>
+                </div>
             </div>
 
-            <div>
-                <a class="colabLink" target="_blank" href="https://thedeep18.github.io/smartroutevgec/">Final
-                    Product(Mobile first)</a>
-            </div>
         </div>
     </div>
+
 
 
     <div>
@@ -103,22 +182,15 @@
 
 
     <div id="extraWork">
-                <div id="dailyUI" class="extraWork">
-                    <a href="./dailyUI.html"><img src="./img/dailyUI/dailyUImain2.png" alt=""></a>
-                </div>
+        <div id="dailyUI" class="extraWork">
+            <a href="./dailyUI.html"><img src="./img/dailyUI/dailyUImain2.png" alt=""></a>
+        </div>
 
         <div id="drawings" class="extraWork">
             <a href="./sketches.html"><img src="./img/Drawings/sketchMain.png" alt=""></a>
 
         </div>
     </div>
-
-
-
-
-
-
-
 
 
 

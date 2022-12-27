@@ -4,23 +4,23 @@
     font-size: 1.1rem;
 }
 
-.headingEach{
-        width: 30%;
-            margin: auto;
-            display: flex;
-            justify-content: center;
-            padding: 20px 40px;
-            border: 0px solid none;
-            border-radius: 14px;
-            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-            margin-top: 100px;
+.headingEach {
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px 40px;
+    border: 0px solid none;
+    border-radius: 14px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 100px;
 }
 
-.divEach{
+.divEach {
     margin: 150px 100px;
 }
 
-.divEach p{
+.divEach p {
     color: #555;
 }
 
@@ -114,9 +114,9 @@
     align-items: center;
     width: 220px;
     border-left: 4px solid #c82828;
-        border: 0px solid none;
-            /* border-radius: 14px; */
-            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 0px solid none;
+    /* border-radius: 14px; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
 }
 
@@ -162,12 +162,12 @@
     align-items: center;
     padding: 20px;
     width: 400px;
-        border-top: 4px solid #c82828;
-        border: 0px solid none;
-        /* border-radius: 14px; */
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-            margin: 40px;
-        }
+    border-top: 4px solid #c82828;
+    border: 0px solid none;
+    /* border-radius: 14px; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 40px;
+}
 
 .painPointDiv h4 {
     text-align: center;
@@ -229,7 +229,7 @@
     margin: 20px;
 }
 
-.userFlowImg img{
+.userFlowImg img {
     width: 94vw;
 }
 
@@ -240,13 +240,13 @@
     margin: 20px;
 }
 
-.paperWireframes{
+.paperWireframes {
     display: flex;
     justify-content: center;
-    
+
 }
 
-.paperWireframes img{
+.paperWireframes img {
     height: 60vh;
     /* width: 80vw; */
 }
@@ -258,7 +258,7 @@
     margin: 20px;
 }
 
-.lofi{
+.lofi {
     display: flex;
     justify-content: center;
 }
@@ -266,7 +266,7 @@
 /* ############## Iterations ############### */
 
 
-#iterations h3{
+#iterations h3 {
     width: 30%;
     margin: auto;
     display: flex;
@@ -280,17 +280,20 @@
     margin: 20px;
 }
 
-.iterationsDesc{
+.iterationsDesc {
     display: flex;
     flex-direction: column;
     margin-bottom: 60px;
 }
-.iterationsDescOne, .iterationsDescTwo{
+
+.iterationsDescOne,
+.iterationsDescTwo {
     display: flex;
     flex-direction: row;
-    
+
 }
-.desc{
+
+.desc {
     display: flex;
     text-align: center;
     align-items: center;
@@ -305,21 +308,22 @@
 
 /* ################## Refinign the designs ############### */
 
-.redesignedImg img{
+.redesignedImg img {
     height: 60vh;
 }
 
-#redesigned{
+#redesigned {
     display: flex;
     justify-content: center;
-        margin: 40px 0px;
+    margin: 40px 0px;
 }
 
-.cutomization{
+.cutomization {
     display: flex;
     justify-content: center;
     height: 72vh;
 }
+
 /* ############ Style guide ########### */
 
 
@@ -332,6 +336,70 @@
 
 #takeAways p {
     margin: 20px;
+}
+
+
+
+/* ########## nextPrevious Links ################## */
+
+#nextPreviousLinks {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 200px;
+}
+
+.nextPrevLinks {
+    display: flex;
+    margin: auto;
+    width: 80vw;
+    justify-content: center;
+}
+
+#nextPreviousLinks li {
+    list-style: none;
+}
+
+#nextPreviousLinks li a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    padding: 14px;
+    margin: 10px;
+    margin-bottom: 4px;
+    display: flex;
+    text-align: center;
+
+}
+
+#nextPreviousLinks span {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+
+}
+
+
+
+#nextPreviousLinks a:hover {
+    cursor: pointer;
+    padding: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #ba9043;
+    display: flex;
+    text-align: center;
+    /* border-bottom: 1px solid black; */
+
+}
+
+#nextPreviousLinks a:active {
+    cursor: pointer;
+    padding: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #ba9043;
+    display: flex;
+    text-align: center;
+    /* border-bottom: 1px solid black; */
+
 }
 
 /* ############## Let's Connect ############### */
