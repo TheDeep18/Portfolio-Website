@@ -1,17 +1,22 @@
 .divMain h5 {
-    margin: 14px;
+    /* margin: 14px; */
     font-weight: bold;
     font-size: large;
+    color: #2e2e2e;
+    display: flex;
+    width: 57vw;
+    margin:20px auto;
+
 }
 
 .divMain h5::before {
-    content: "";
+content: "";
     display: inline-block;
-    width: 50px;
-    height: 1px;
-    background: #555;
+    width: 20px;
+    height: 3px;
+    background: #2e2e2e;
     vertical-align: top;
-    margin-top: 11px;
+    margin-top: 10px;
     margin-right: 10px;
 }
 
@@ -203,9 +208,6 @@
 }
 
 
-.technoDesc {
-    width: 60vw;
-}
 
 .technoList {
 
@@ -450,44 +452,3 @@
 
 
 
-
-
-
-
-
-/* ############## Contact ################# */
-
-
-#contact {
-    height: calc(100vh - 130px);
-    display: flex;
-    flex-direction: column;
-    margin: 0 100px;
-    justify-content: center;
-}
-
-#contact a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    font-size: 4rem;
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
-}
-
-#contact a:hover {
-    text-decoration: none;
-    color: rgb(51, 51, 51);
-    font-weight: bold;
-    font-size: 4rem;
-    font-style: italic;
-    font-family: 'Playfair Display', serif;
-    transition: all 0.2s ease-in-out;
-}
-
-
-
-#contact p {
-    font-family: Lato, sans-serif;
-    font-size: 1.5rem;
-}
