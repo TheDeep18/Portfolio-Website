@@ -271,7 +271,7 @@ content: "";
 }
 
 .poster:hover img {
-    transform: scale(1.05);
+    transform: scale(1.020);
     animation-delay: 0.25s !important;
 }
 
