@@ -1,49 +1,48 @@
-#aboutMe{
+#aboutMe {
     height: calc(100vh - 120px);
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        position: relative;
-        top: 84px;
-        align-items: center;
-        /* margin-top: 120px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    top: 84px;
+    align-items: center;
+    /* margin-top: 120px; */
 }
 
-.aboutDesc{
+.aboutDesc {
     width: 48vw;
-height: calc(100vh - 64px);
+    height: calc(100vh - 64px);
     margin: auto;
 }
 
-.aboutDesc img{
+.aboutDesc img {
     height: 60vh;
 
     margin: 78px;
-        box-shadow: 0 10px 60px 0 rgb(0 0 0 / 20%);
-        border: 0px solid none;
-        /* border-radius: 14px; */
+    box-shadow: 0 10px 60px 0 rgb(0 0 0 / 20%);
+    border: 0px solid none;
+    /* border-radius: 14px; */
 }
 
-.descP
-{
-    margin:42px 44px;
+.descP {
+    margin: 42px 44px;
     display: flex;
     flex-direction: column;
 
 }
 
-.descP h1
-{
+.descP h1 {
     font-family: 'Playfair Display';
     padding: 20px 0;
     color: #2e2e2e;
 }
-.descP p{
+
+.descP p {
     font-size: 1.5rem;
     color: #2e2e2e;
 }
 
-.descItalic{
+.descItalic {
     font-style: italic;
     border-left: 3px solid #2e2e2e;
     margin: 12px 0;
@@ -52,7 +51,7 @@ height: calc(100vh - 64px);
     padding-left: 14px;
 }
 
-.profileLinks img{
+.profileLinks img {
 
     margin-top: 20px;
     height: 50px;
@@ -68,7 +67,7 @@ height: calc(100vh - 64px);
 
 }
 
-.resume a{
+.resume a {
     border: 2px solid #ceb072;
     padding: 13px;
     width: 10vw;
@@ -78,27 +77,27 @@ height: calc(100vh - 64px);
     justify-content: center;
     color: #2e2e2e;
     text-decoration: none;
-                    /* letter-spacing: 4px; */
-                    font-weight: bold;
-                    font-family: Lato, sans-serif;
+    /* letter-spacing: 4px; */
+    font-weight: bold;
+    font-family: Lato, sans-serif;
 
 }
 
-.resume a:hover{
+.resume a:hover {
     border: 2px solid #2e2e2e;
     padding: 13px;
     width: 10vw;
     margin: 8px 0;
     display: flex;
-        font-size: 1.2rem;
-        justify-content: center;
-        color: white;
-        background-color: #ceb072;
-        font-family: Lato, sans-serif;
-        text-decoration: none;
-        transition: all 0.2s ease-in;
-        /* letter-spacing: 4px; */
-        font-weight: bold;
+    font-size: 1.2rem;
+    justify-content: center;
+    color: white;
+    background-color: #ceb072;
+    font-family: Lato, sans-serif;
+    text-decoration: none;
+    transition: all 0.2s ease-in;
+    /* letter-spacing: 4px; */
+    font-weight: bold;
 
 }
 
@@ -109,7 +108,7 @@ height: calc(100vh - 64px);
 #contact {
     display: flex;
     flex-direction: column;
-margin: 160px 100px 0px;
+    margin: 160px 100px 0px;
 }
 
 #contact a {
@@ -151,4 +150,42 @@ footer {
     background-color: white;
     box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
     text-align: center;
+}
+
+
+/* ################## Responsive web design #################  */
+@media only screen and (max-width: 760px) {
+    #aboutMe {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aboutDesc img {
+        height: 43vh;
+        margin: 18px;
+    }
+
+    .aboutDesc {
+        width: auto;
+        height: auto;
+        margin: auto;
+    }
+
+    .profileLinks {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .profileLinks a{
+        margin: 0px 16px;
+    }
+
+.resume a {
+    padding: 13px;
+    border-radius: 14px;
+    width: auto;
+    margin: 8px 0 37px;
+}
 }

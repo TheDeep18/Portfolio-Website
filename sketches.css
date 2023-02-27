@@ -97,7 +97,35 @@
 
 
 
-
+/* ################ Responsive web design #################  */
+@media only screen and (max-width: 760px) {
+    .sketchMainDuoSingle {
+            display: flex;
+            justify-content: center;
+            margin-top: 100px;
+        }
+                .sketchItem img {
+                    height: auto;
+                    width: 82vw;
+                    margin: auto;
+                }
+                                .sketchMainDuo {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                }
+                                                                        #nextPreviousLinks li a {
+                                                                            text-decoration: none;
+                                                                            font-family: 'Roboto', sans-serif;
+                                                                            color: black;
+                                                                            padding: 14px;
+                                                                            margin: 0px;
+                                                                            margin-bottom: 4px;
+                                                                            display: flex;
+                                                                            text-align: center;
+                                                                        }
+}
 
 
 

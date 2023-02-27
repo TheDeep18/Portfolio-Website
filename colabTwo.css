@@ -5,12 +5,12 @@
     color: #2e2e2e;
     display: flex;
     width: 57vw;
-    margin:20px auto;
+    margin: 20px auto;
 
 }
 
 .divMain h5::before {
-content: "";
+    content: "";
     display: inline-block;
     width: 20px;
     height: 3px;
@@ -277,7 +277,7 @@ content: "";
 
 }
 
-.desc {
+.descSmartRoute {
     height: 20vh;
     display: flex;
     text-align: center;
@@ -451,4 +451,216 @@ content: "";
 }
 
 
+/* #########################3 Responsive web design starts here ######################### */
 
+
+@media only screen and (max-width: 760px) {
+
+    #introductionColabTwo {
+        height: auto;
+        background-color: #c8e6c9;
+        /* background-color: #f6e0b5; */
+        display: flex;
+        flex-direction: column;
+        padding: 60px 16px;
+        /* padding-left: 150px; */
+        justify-content: center;
+    }
+        .introImgColabTwo img {
+            height: 40vh;
+        }
+
+    .introColabTwo {
+        margin: 0px;
+        width: auto;
+    }
+
+    .projectOverview img {
+        height: 30vh;
+        padding: 80px 16px;
+    }
+
+    #problem {
+        display: flex;
+        flex-direction: column;
+        background-color: #e3f2fd;
+    }
+
+        .problemImg img {
+            height: 30vh;
+        }
+.problem {
+    margin: 12px;
+    /* border: 1px solid black; */
+    width: auto;
+    display: flex;
+        justify-content: center;
+}
+
+    #initialResearch {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+        .initialResearchDesc {
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            justify-content: center;
+            font-size: 1.4rem;
+        }
+        .initialResearchDesc p {
+            padding-left: 0px;
+            display: flex;
+            justify-content: right;
+            margin: 20px 0px;
+        }
+
+    #technologies {
+        /* display: flex; */
+        justify-content: center;
+        height: auto;
+        padding: 12px;
+        background-color: #f9fbe7;
+    }
+
+    .technoList {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .technoListItemMain {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .technoListItem {
+        /* border: 1px solid black; */
+        border-radius: 14px;
+        box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+        height: auto;
+        width: 150px;
+        margin: 16px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: white;
+    }
+
+    #firstPrototype {
+        /* background-color: #eeeeee; */
+        /* display: flex; */
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .firstProtoImg {
+        /* border: 1px solid black; */
+        border-radius: 14px;
+        width: 90vw;
+        display: flex;
+        box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px 2px;
+        align-content: center;
+        justify-content: center;
+    }
+
+    #firstProtoIteration {
+        margin: auto;
+    }
+
+    .firstProtoIterationDesc {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .descSmartRoute {
+        height: auto;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        /* border: 0.5px solid gainsboro; */
+        /* box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px; */
+        box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px 2px;
+        margin: 16px;
+        padding: 14px;
+    }
+
+    #finalPrototype {
+        /* background-color: #eeeeee; */
+        display: flex;
+        height: auto;
+        margin: 82px 12px;
+        padding: 0px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .finalProtoImg {
+        /* border: 1px solid black; */
+        border-radius: 14px;
+        width: 90vw;
+        box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px 2px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .firstProtoVid {
+        box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px 2px;
+        border-radius: 14px;
+        width: 80vw;
+        display: flex;
+        /* align-content: center; */
+        justify-content: center;
+    }
+
+    #takeAways {
+        margin: 150px 0px;
+        padding: 14px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .takeawayDesc {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+        margin: auto;
+    }
+
+    #futureAspects {
+        margin: 75px 12px;
+        padding: 12px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .futureAspectsDesc {
+        display: flex;
+        width: auto;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+
+                #nextPreviousLinks li a {
+                    text-decoration: none;
+                    font-family: 'Roboto', sans-serif;
+                    color: black;
+                    padding: 14px;
+                    margin: 0px;
+                    margin-bottom: 4px;
+                    display: flex;
+                    text-align: center;
+                }
+}
