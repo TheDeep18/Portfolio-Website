@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 #caseStudy {
@@ -10,7 +10,7 @@
 }
 
 
-.heading {
+.headingPetHouse {
     color: #2e2e2e;
     margin: 132px auto 14px;
     /* float: right; */
@@ -22,8 +22,8 @@
     color: #2e2e2e;
 }
 
-.heading::after {
-content: "";
+.headingPetHouse::before {
+    content: "";
     display: inline-block;
     width: 40px;
     height: 3px;
@@ -281,7 +281,7 @@ content: "";
     margin: auto;
 }
 
-#styleGuidePetHouse img{
+#styleGuidePetHouse img {
 
     width: 60vw;
     display: flex;
@@ -507,4 +507,179 @@ footer {
     background-color: white;
     box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
     text-align: center;
+}
+
+
+/* ################## Responsive web design starts here ################ */
+@media only screen and (max-width: 760px) {
+
+    #caseStudy {
+        margin: 0px 24px;
+    }
+
+    .headingPetHouse {
+        color: #2e2e2e;
+        margin: 132px 0px 14px;
+        /* float: right; */
+        display: flex;
+        width: auto;
+        flex-direction: row-reverse;
+        /* font-family: 'Bebas Neue', cursive; */
+        font-family: 'Fjalla One', sans-serif;
+        color: #2e2e2e;
+    }
+
+    #overviewImg{
+        height: auto;
+            width: auto;
+            display: flex;
+            justify-content: center;
+    
+    }
+    #overviewImg img {
+        width: auto;
+        height: 20vh;
+        margin-top: 86px;
+    }
+
+    #product {
+        border: 1px solid #727272;
+        border-radius: 8px;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+        width: auto;
+        align-items: flex-start;
+        margin: auto;
+        padding: 16px;
+    }
+
+    .overview {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        /* justify-content: space-evenly; */
+        align-items: flex-start;
+        width: auto;
+        margin: 16px 0px;
+    }
+
+    #aim {
+        border: 1px solid #727272;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        border-radius: 8px;
+        padding: 16px;
+        justify-content: center;
+        margin: 14px auto;
+    }
+
+    #paperWireframe img {
+        width: auto;
+        display: flex;
+        height: 56vh;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .scroll {
+        margin: auto;
+        padding: 4px;
+        width: 81vw;
+        justify-content: center;
+        display: flex;
+        border: 8px solid #222222;
+        border-radius: 10px;
+        overflow-y: scroll;
+        max-height: 460px;
+    }
+
+    #styleGuidePetHouse img {
+        width: auto;
+        height: 42vh;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+
+    #mobileDesignScrolls {
+        display: flex;
+        flex-direction: column;
+        /* flex-direction: row; */
+    }
+
+    .mobileScroll {
+        margin: 16px auto;
+        padding: 4px;
+        width: 31vw;
+        justify-content: center;
+        display: flex;
+        border: 8px solid #222222;
+        border-radius: 14px;
+        overflow-y: scroll;
+        max-height: 460px;
+    }
+
+    #takeAways p {
+        color: #2c2c2c;
+        margin: 20px 0px;
+        font-family: 'Fjalla One', sans-serif;
+    }
+
+    #futureAspects p {
+        color: #2c2c2c;
+        margin: 20px 0px;
+        font-family: 'Fjalla One', sans-serif;
+    }
+
+    #nextPreviousLinks li a {
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        color: black;
+        padding: 14px;
+        margin: 0px;
+        margin-bottom: 4px;
+        display: flex;
+        text-align: center;
+    }
+
+    #contact {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 36px 24px;
+    }
+
+    .email {
+        width: auto
+    }
+
+    #contact a {
+        text-decoration: none;
+        color: #2e2e2e;
+        font-weight: bold;
+        font-size: 2rem;
+        font-family: 'Playfair Display', serif;
+        font-style: italic;
+    }
+
+    #contact a:hover {
+        text-decoration: none;
+        color: rgb(51, 51, 51);
+        font-weight: bold;
+        font-size: 2rem;
+        font-style: italic;
+        font-family: 'Playfair Display', serif;
+        transition: all 0.2s ease-in-out;
+    }
+
+    #contact p {
+        font-family: Lato, sans-serif;
+        font-size: 1rem;
+        color: #2e2e2e;
+        display: flex;
+        align-items: center;
+    }
 }

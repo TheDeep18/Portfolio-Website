@@ -66,3 +66,24 @@
     /* border-bottom: 1px solid black; */
 
 }
+
+@media only screen and (max-width: 760px) {
+    .dailyUIItem {
+        display: flex;
+        align-items: center;
+        margin: 100px auto;
+        width: auto;
+        justify-content: center;
+    }
+
+    .dailyUIItem img {
+        /* height: 34vh'; */
+        height: 40vh;
+    }
+
+    #nextPreviousLinks li a {
+
+        margin: 7px;
+
+    }
+}

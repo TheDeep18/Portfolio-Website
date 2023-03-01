@@ -151,3 +151,41 @@ footer {
     box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
     text-align: center;
 }
+
+
+/* ################## Responsive web design #################  */
+@media only screen and (max-width: 760px) {
+    #aboutMe {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aboutDesc img {
+        height: 43vh;
+        margin: 18px;
+    }
+
+    .aboutDesc {
+        width: auto;
+        height: auto;
+        margin: auto;
+    }
+
+    .profileLinks {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .profileLinks a{
+        margin: 0px 16px;
+    }
+
+.resume a {
+    padding: 13px;
+    border-radius: 14px;
+    width: auto;
+    margin: 8px 0 37px;
+}
+}
