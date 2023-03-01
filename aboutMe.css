@@ -178,14 +178,15 @@ footer {
         justify-content: center;
 
     }
-    .profileLinks a{
+
+    .profileLinks a {
         margin: 0px 16px;
     }
 
-.resume a {
-    padding: 13px;
-    border-radius: 14px;
-    width: auto;
-    margin: 8px 0 37px;
-}
+    .resume a {
+        padding: 13px;
+        border-radius: 14px;
+        width: auto;
+        margin: 8px 0 37px;
+    }
 }
