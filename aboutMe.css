@@ -105,11 +105,11 @@
 
 
 /* ############# contact ##################  */
-#contact {
+/* #contact {
     display: flex;
     flex-direction: column;
     margin: 160px 100px 0px;
-}
+} */
 
 #contact a {
     text-decoration: none;
