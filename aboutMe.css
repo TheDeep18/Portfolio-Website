@@ -190,14 +190,15 @@ footer {
 
     .profileLinks {
         display: flex;
+        width: auto;
         align-items: center;
         justify-content: center;
 
     }
 
-    .profileLinks a {
+    /* .profileLinks a {
         margin: 0px 16px;
-    }
+    } */
 
     .resume a {
         border: 2px solid #ceb072;
