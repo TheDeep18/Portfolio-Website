@@ -1,12 +1,12 @@
 #aboutMe {
-    height: calc(100vh - 120px);
+    /* height: calc(100vh - 120px); */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    position: relative;
-    top: 84px;
+    /* position: relative; */
+    /* top: 84px; */
     align-items: center;
-    /* margin-top: 120px; */
+    margin-top: 70px;
 }
 
 .aboutDesc {
@@ -51,6 +51,12 @@
     padding-left: 14px;
 }
 
+.profileLinks {
+    width: 16vw;
+    display: flex;
+    justify-content: space-between;
+}
+
 .profileLinks img {
 
     margin-top: 20px;
@@ -60,7 +66,7 @@
 }
 
 .profileLinks img:hover {
-    border: 2px solid #2e2e2e;
+    border: 2px solid #ffffff;
     background-color: #ceb072;
     transition: all 0.2s ease-in;
 
@@ -69,8 +75,9 @@
 
 .resume a {
     border: 2px solid #ceb072;
+    border-radius: 14px;
     padding: 13px;
-    width: 10vw;
+    width: 14vw;
     margin: 8px 0;
     display: flex;
     font-size: 1.2rem;
@@ -84,9 +91,10 @@
 }
 
 .resume a:hover {
-    border: 2px solid #2e2e2e;
+    border: 2px solid #ffffff;
     padding: 13px;
-    width: 10vw;
+    border-radius: 14px;
+    width: 14vw;
     margin: 8px 0;
     display: flex;
     font-size: 1.2rem;
@@ -105,11 +113,11 @@
 
 
 /* ############# contact ##################  */
-/* #contact {
+#contact {
     display: flex;
     flex-direction: column;
     margin: 160px 100px 0px;
-} */
+}
 
 #contact a {
     text-decoration: none;
@@ -145,7 +153,7 @@
 
 footer {
     color: #2e2e2e;
-    padding: 20px;
+    padding: 100px;
     font-family: Lato, sans-serif;
     background-color: white;
     box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
@@ -157,13 +165,21 @@ footer {
 @media only screen and (max-width: 760px) {
     #aboutMe {
         height: auto;
+        display: flex;
         flex-direction: column;
+        justify-content: center;
+        /* position: relative; */
+        /* top: 84px; */
         align-items: center;
+        margin-top: 80px;
     }
 
     .aboutDesc img {
         height: 43vh;
         margin: 18px;
+        box-shadow: 0 10px 60px 0 rgb(0 0 0 / 20%);
+        border: 0px solid none;
+        /* border-radius: 14px; */
     }
 
     .aboutDesc {
@@ -184,9 +200,36 @@ footer {
     }
 
     .resume a {
+        border: 2px solid #ceb072;
+        background-color: #ffffff;
         padding: 13px;
         border-radius: 14px;
         width: auto;
         margin: 8px 0 37px;
+        display: flex;
+        font-size: 1.2rem;
+        justify-content: center;
+        color: #2e2e2e;
+        text-decoration: none;
+        /* letter-spacing: 4px; */
+        font-weight: bold;
+        font-family: Lato, sans-serif;
+    }
+
+    .resume a:hover {
+        border: 2px solid #ffffff;
+        padding: 13px;
+        border-radius: 14px;
+        width: auto;
+        margin: 8px 0 37px;
+        display: flex;
+        font-size: 1.2rem;
+        justify-content: center;
+        color: #ffffff;
+        text-decoration: none;
+        background-color: #ceb072;
+        /* letter-spacing: 4px; */
+        font-weight: bold;
+        font-family: Lato, sans-serif;
     }
 }
