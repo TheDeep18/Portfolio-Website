@@ -180,6 +180,7 @@ footer {
         box-shadow: 0 10px 60px 0 rgb(0 0 0 / 20%);
         border: 0px solid none;
         /* border-radius: 14px; */
+        pointer-events: none;
     }
 
     .aboutDesc {
