@@ -5,9 +5,14 @@
     scroll-behavior: smooth;
     /* font-size: 1.2rem; */
 }
+#heroimg img{
+    height: 100vh;
+    background-repeat: no-repeat ;
+    background-size: 50%;
+}
 
 body {
-
+/* background-color: #2e2e2e; */
     font-family: Lato, sans-serif;
 }
 
@@ -23,12 +28,19 @@ body {
     height: 2px;
     background: #2e2e2e;
     vertical-align: top;
-    margin-top: 8px;
+    margin-top: 7px;
     margin-right: 10px;
 }
 
+/* #projectwrapper{
+    width: 75vw;
+} */
 
 /* Navbar */
+.navContainer{
+    display: flex;
+    justify-content: center;
+}
 #navbar {
     /* border: 5px solid black; */
     display: flex;
@@ -37,13 +49,13 @@ body {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    height: 84px;
+    /* height: 84px; */
     margin: auto;
     position: fixed;
     z-index: 1;
     top: 0px;
-    background-color: white;
-    box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
+    /* background-color: white; */
+    /* box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px; */
 
 
 }
@@ -57,10 +69,24 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+#logo a img{
+    height:60px;
+}
+
+.navlinkscontainer{
+    display: flex;
+    border: 0px solid black;
+    border-radius: 14px;margin: 16px;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.10);
+    backdrop-filter: blur(8px);
+}
+
 #links {
-    padding: 14px;
+    /* padding: 14px; */
     display: flex;
     text-align: center;
+    justify-content: space-between;
     list-style: none;
 
 }
@@ -167,9 +193,11 @@ body {
 }
 
 .introImg img {
-    height: calc(100vh - 64px);
+height: calc(100vh - 65px);
     width: auto;
-    margin-right: 40px;
+    position: relative;
+    margin-right: 175px;
+    top: -86px;
 
 }
 
@@ -202,7 +230,7 @@ body {
 
 
 .projectItem {
-    /* width: 60vw; */
+    width: 60vw;
     /* height: 281px; */
     /* transition: 0.5s; */
     display: flex;
@@ -238,6 +266,12 @@ body {
     animation-delay: 0.25s !important;
 }
 
+.descTwo {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+}
 
 .desc {
     /* margin-top: 60px; */
@@ -303,17 +337,18 @@ body {
     /* justify-content: center; */
     padding: 20px;
     align-items: center;
-    width: 40%;
+    width: 27%;
     border: 0 solid none;
     border-radius: 14px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    margin: 44px
+    margin: 44px;
+    margin-left: 0px;
 }
 
 .colab img {
-    height: 350px;
+    height: 250px;
     border-radius: 14px;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 
@@ -337,9 +372,11 @@ body {
 }
 
 .colabKeywords span {
-    margin: 12px;
-    margin-bottom: 8px;
-    padding: 5px 15px;
+margin: 12px;
+    text-align: center;
+    margin-bottom: 0px;
+    display: flex;
+    padding: 5px 11px;
     background-color: rgb(248, 248, 248);
     color: gray;
     border: 0 solid none;
@@ -354,7 +391,7 @@ body {
 
 #colabOne {
     position: relative;
-    top: 350px;
+    top: 100px;
 }
 
 /* #################### colab two ################## */
@@ -364,7 +401,7 @@ body {
     color: #ceb072;
     justify-content: center;
     align-items: center;
-    margin: 30px;
+    margin: 24px 0 0 0;
     padding: 5px 15px;
     display: flex;
     border: 0 solid none;
@@ -378,7 +415,7 @@ body {
     color: white;
     justify-content: center;
     align-items: center;
-    margin: 30px;
+    margin: 24px 0 0 0;
     background-color: #ceb072;
     padding: 5px 15px;
     display: flex;
@@ -394,7 +431,7 @@ body {
     width: 70vw;
     margin: 50px auto 150px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 
@@ -456,7 +493,7 @@ body {
     height: calc(100vh - 256px);
     display: flex;
     flex-direction: column;
-    margin: 160px 100px 0px;
+    margin: 48px 100px 0px;
 }
 
 #contact a {
