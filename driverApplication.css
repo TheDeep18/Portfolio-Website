@@ -1,0 +1,897 @@
+#caseStudy {
+    /* padding: 0px 60px; */
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    color: #2e2e2e;
+}
+
+.headingEach {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px 40px;
+    border: 0px solid none;
+    border-radius: 14px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 160px;
+    margin-bottom: 48px;
+}
+
+/* .divEach {
+    margin: 150px 100px;
+} */
+
+.divEach p {
+    color: #555;
+}
+
+
+/* ####################  Project Overview  ################ */
+
+.heroImg img {
+    width: 100%;
+    margin: 60px 0 0 0;
+}
+
+.projectOverview img {
+    width: 100%;
+    margin: 100px 0;
+}
+
+
+
+.productImg {
+    height: 140px;
+    position: relative;
+    top: 0;
+}
+
+.productContainer {
+    /* border: 1px solid black; */
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: first baseline;
+    align-items: center;
+    padding: 14px;
+    /* margin-bottom: 20px; */
+    height: 140px;
+
+
+}
+
+
+
+.productContainer h3 {
+    margin-bottom: 14px;
+}
+
+.overviewOne {
+    display: flex;
+}
+
+.overviewTwo {
+    /* height: 400px; */
+    display: flex;
+}
+
+.overviewThree {
+    display: flex;
+}
+
+
+/* #################### Prototype #################### */
+
+/* #proto {
+    display: flex;
+    justify-content: center;
+} */
+
+/* #proto img {
+    height: 550px;
+    border: 1px solid black;
+    justify-content: center;
+    margin-bottom: 60px;
+} */
+
+/* ############ under NDA ################  */
+#underNda {
+    margin: 40px 0;
+}
+
+#underNda h3 {
+    margin: 24px 0;
+}
+
+#underNda p {
+    margin: 24px 0;
+}
+
+
+
+/* ############ about comapany ################  */
+#aboutCompany {
+    margin: 40px 0;
+}
+
+#aboutCompany h3 {
+    margin: 24px 0;
+}
+
+#aboutCompany p {
+    margin: 24px 0;
+}
+
+
+
+
+/* ################ Understanding the user ################ */
+
+
+
+#understandingTheUser p {
+    margin: 20px;
+    margin: 60px;
+}
+
+.questions {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.questions li {
+    /* height: 40px; */
+    list-style: none;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    border-left: 4px solid #c82828;
+    border: 0px solid none;
+    /* border-radius: 14px; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+
+
+
+/* ########## User research summary ################ */
+
+
+
+#userResearchSummary p {
+    margin: 20px;
+    margin-bottom: 60px;
+    border-left: 4px solid #c82828;
+    padding-left: 8px;
+    height: 60px;
+    align-items: center;
+    display: flex;
+
+
+}
+
+
+
+/* ######################## Pain Point ################### */
+
+
+.painPointNo {
+    height: 100px;
+}
+
+.painPointContainer {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.painPointDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: auto;
+    border-top: 4px solid #2e2e2e;
+    border: 0px solid none;
+    /* border-radius: 14px; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 48px 16px;
+}
+
+.painPointDiv h4 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.painPointDiv p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+
+
+/* ######################## Pain Point ################### */
+
+
+.whatsNewNo {
+    height: 100px;
+}
+
+.whatsNewContainer {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.whatsNewDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: auto;
+    border-top: 4px solid #2e2e2e;
+    border: 0px solid none;
+    /* border-radius: 14px; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 48px 16px;
+}
+
+.whatsNewDiv h4 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.whatsNewDiv p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+/* ############ Meet the Users ################ */
+
+
+
+.users {
+    display: flex;
+}
+
+.userImg img {
+    margin: 20px 36px;
+    height: 40vh;
+}
+
+#myImg1,
+#myImg2 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg1:hove,
+#myImg2:hover {
+    opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 81px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption1,
+#caption2 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content,
+#caption1,
+#caption2 {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+/* ####### Competitve analysis ###############  */
+
+
+#competetiveAnalysis p {
+    margin: 20px;
+}
+
+#competetiveAnalysis li {
+    margin-left: 40px;
+    margin-bottom: 8px;
+    list-style: none;
+    font-weight: bold;
+    padding: 8px;
+    border-left: 4px solid #c82828;
+}
+
+
+
+/* ################ affinity ########### */
+
+
+#affinity p {
+    margin: 20px
+}
+
+
+
+/* ############## user flow ############# */
+
+#userFlow p {
+    margin: 20px;
+}
+
+.userFlowImg img {
+    width: 100%;
+}
+
+/* ########### userJourneyMapImg ########### */
+.userJourneyMapImg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+/* ########### paper wireframes ############### */
+
+
+#paperWireframes p {
+    margin: 20px;
+}
+
+.paperWireframes {
+    display: flex;
+    justify-content: center;
+    margin: 24px 0;
+
+}
+
+.paperWireframes img {
+    width: 100%;
+    /* height: 60vh; */
+    /* width: 80vw; */
+}
+
+/* ########### userJourneyMapImg ########### */
+.userJourneyMapImg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+/* ########### userJourneyMapImg ########### */
+.empathyMapImg img {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+/* ########### information architecture ########### */
+.infoArchImg img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+/* ########### paper wireframes ############### */
+
+
+#paperWireframes p {
+    margin: 20px;
+}
+
+.paperWireframes {
+    display: flex;
+    justify-content: center;
+    margin: 24px 0;
+
+}
+
+.paperWireframes img {
+    width: 100%;
+    /* height: 60vh; */
+    /* width: 80vw; */
+}
+
+
+/* ################ Digital wireflow ########### */
+
+#digitalWireflow p {
+    margin: 20px;
+}
+
+.lofi {
+    display: flex;
+    justify-content: center;
+}
+
+.lofi img {
+    width: 100%;
+}
+
+/* ############## Iterations ############### */
+
+
+#iterations h3 {
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px 40px;
+    border: 0px solid none;
+    border-radius: 14px;
+}
+
+#iterations p {
+    margin: 20px;
+}
+
+.iterationsDesc {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+.iterationsDescOne,
+.iterationsDescTwo {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.descIter {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+    /* border: 0.5px solid gainsboro; */
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    margin: 14px;
+}
+
+
+/* ################## Refinign the designs ############### */
+
+.redesignedImg img {
+    height: 60vh;
+}
+
+#redesigned {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px;
+}
+
+.customization {
+    display: flex;
+    justify-content: center;
+    height: 72vh;
+}
+
+.customization img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* ############ Prtotype Last ########### */
+
+#protoLast {
+    display: flex;
+    justify-content: center;
+
+}
+
+.protoLast img {
+    height: 68vh;
+}
+
+/* ######## Takeaways ########### */
+
+#takeAways p {
+    margin: 20px;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 760px) {
+    #portfolio {
+        margin-top: 60px;
+    }
+
+    #portfolio {
+        display: flex;
+        flex-direction: column;
+        /* grid-template-rows: 0 auto 12%; */
+        grid-row: 0 auto 12%;
+    }
+
+    .navlinkscontainer {
+        display: flex;
+        border: 0px solid black;
+        border-radius: 14px;
+        margin: 16px;
+        flex-direction: column;
+        width: 79%;
+        position: fixed;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.04);
+        backdrop-filter: blur(8px);
+    }
+
+    .left {
+        visibility: hidden;
+        display: none;
+    }
+
+    .middle {
+        order: 2;
+        width: 100%;
+    }
+
+    .right {
+        order: 1;
+        z-index: 99;
+    }
+
+    .column {
+        float: left;
+        padding: 0 10px;
+        position: sticky;
+        height: 0vh;
+        top: 0px;
+    }
+
+    #myBtn {
+        visibility: hidden;
+        display: none;
+        position: relative;
+        bottom: -81px;
+        top: 555px;
+        right: -151px;
+        margin-bottom: 11px;
+        /* right: 30px; */
+        z-index: 99;
+        border: none;
+        outline: none;
+        background-color: rgba(0, 0, 0, 0.04);
+        backdrop-filter: blur(8px);
+        color: #2e2e2e;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 10px;
+        font-size: 1rem;
+    }
+
+    #caseStudy {
+        padding: 0px 24px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+    }
+
+    .headingEach {
+        width: auto;
+        margin: 100px auto 24px;
+        display: flex;
+        justify-content: center;
+        padding: 20px 40px;
+        border: 0px solid none;
+        border-radius: 14px;
+        box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    }
+
+    .divEach {
+        margin: 0px;
+    }
+
+    .prodOverview {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+    }
+
+
+    .productContainer {
+        /* border: 1px solid black; */
+        margin: 16px 0;
+        width: auto;
+        display: flex;
+        justify-content: first baseline;
+        /* align-items: center; */
+        padding: 0px;
+        margin-bottom: 0px;
+        /* height: auto; */
+    }
+
+    .productImg {
+        height: 16vh;
+        /* position: relative; */
+        /* top: 0; */
+    }
+
+    .projectOverview img {
+        width: 100%;
+        margin: 24px 0;
+    }
+
+    #understandingTheUser p {
+        margin: 20px;
+        /* margin: 60px; */
+    }
+
+    .questions {
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* margin-bottom: 60px; */
+    }
+
+    .questions li {
+        height: 40px;
+        list-style: none;
+        display: flex;
+        padding: 20px;
+        margin: 16px;
+        justify-content: center;
+        align-items: center;
+        /* width: 220px; */
+        border-left: 4px solid #c82828;
+        border: 0px solid none;
+        /* border-radius: 14px; */
+        box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    }
+
+    .painPointContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .painPointDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 12px;
+        width: auto;
+        border-top: 4px solid #2e2e2e;
+        border: 0px solid none;
+        /* border-radius: 14px; */
+        box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+        margin: 12px;
+    }
+
+    .whatsNewContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .whatsNewDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 12px;
+        width: auto;
+        border-top: 4px solid #2e2e2e;
+        border: 0px solid none;
+        /* border-radius: 14px; */
+        box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+        margin: 12px;
+    }
+
+    .users {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .userImg img {
+        margin: 16px 0px;
+        height: auto;
+        width: 100%;
+    }
+
+
+
+    #competetiveAnalysis li {
+        margin-left: 0px;
+
+    }
+
+    .userImg {
+        display: flex;
+        justify-content: center;
+    }
+
+    .userFlowImg img {
+        width: 100%;
+    }
+
+    .userJourneyMapImg img {
+
+        width: 100%;
+        margin: 12px;
+
+    }
+
+    .paperWireframes img {
+        height: auto;
+        width: 100%;
+    }
+
+    .lofi img {
+        height: 42vh;
+    }
+
+    .descIter {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        /* border: 0.5px solid gainsboro; */
+        /* box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px; */
+        box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px 2px;
+        margin: 16px 0px 0px 0px;
+    }
+
+    #iterations h3 {
+        width: auto;
+        margin: auto;
+        margin-top: 24px;
+        display: flex;
+        justify-content: center;
+        padding: 20px 40px;
+        border: 0px solid none;
+        border-radius: 14px;
+    }
+
+    #redesigned {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 40px 0px;
+    }
+
+    .redesignedImg img {
+        height: auto;
+        width: 80vw;
+    }
+
+    .iterationsDescCombine {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cutomization img {
+        height: 15vh;
+    }
+
+    .cutomization {
+        display: flex;
+        justify-content: center;
+        height: auto;
+    }
+
+    #proto {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #proto img {
+        height: auto;
+        margin-bottom: auto;
+    }
+
+    .protoLast img {
+        height: 60vh;
+        margin-bottom: auto;
+    }
+
+    #protoLast {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    
+}

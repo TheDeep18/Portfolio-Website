@@ -1,0 +1,291 @@
+/* ###################### left navigation content links ##########################  */
+
+.section-nav li.active>a {
+    color: #ba9043;
+    font-weight: 500;
+}
+
+/* Sidebar Navigation */
+.section-nav {
+    padding-left: 0;
+    /* border-left: 1px solid #efefef; */
+    margin: 18px 0;
+}
+
+.section-nav a {
+    text-decoration: none;
+    display: block;
+    text-align: end;
+    padding: 0.3rem 12px;
+    color: #747474;
+    transition: all 50ms ease-in-out;
+    /* 💡 This small transition makes setting of the active state smooth */
+}
+
+.section-nav a:hover,
+.section-nav a:focus {
+    color: #242424;
+}
+
+/** Poor man's reset **/
+
+
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* .section-nav ol li {
+    margin-left: 1rem;
+} */
+
+h1 {
+    font-weight: 400;
+}
+
+/** page layout **/
+main {
+    display: grid;
+    grid-template-columns: 1fr 15em;
+    max-width: 100em;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/** enlarge the sections for this demo, so that we have a long scrollable page **/
+section {
+    padding-bottom: 20rem;
+}
+
+
+/* ######################## story item ######################### */
+.mediumProfile {
+    margin: 18px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+    background-color: rgba(0, 0, 0, 0.04);
+    border: 1px solid none;
+    border-radius: 8px;
+}
+
+.medImg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.medImg img {
+    width: 10%;
+    border: 1px solid none;
+    border-radius: 50%;
+    margin-right: 24px;
+}
+
+.medProfileLink a {
+    text-decoration: none;
+    display: block;
+    list-style-type: none;
+    color: #ba9043;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+/* .story{
+    margin: 60px 0 100px 0;
+} */
+.storyItem {
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.04);
+    /* grid-template-columns: 50% 50%; */
+    padding: 24px;
+    border: 1px solid none;
+    border-radius: 8px;
+    margin: 48px 0 100px 0;
+}
+
+#storyTwo {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.storyLinks {
+    color: #ba9043;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* .storyLinks p{
+    margin: 8px 0;
+} */
+
+.readOnMedium a {
+    text-decoration: none;
+    list-style: none;
+    color: #ba9043;
+}
+
+
+.storyDesc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+
+}
+
+.storyDesc div {
+    margin: 8px 0;
+}
+
+.storyTags {
+    display: flex;
+    flex-direction: row;
+}
+
+.storyTags div {
+    background-color: rgba(0, 0, 0, 0.04);
+    padding: 8px;
+    border: 1px solid none;
+    border-radius: 8px;
+    width: fit-content;
+    margin: 0 8px;
+}
+
+.storyImgO {
+    display: flex;
+    width: 80%;
+    justify-content: flex-end;
+}
+
+.storyImgE {
+    display: flex;
+    width: 80%;
+    justify-content: flex-start;
+}
+
+.storyImgO img {
+    width: 28vw;
+    border: 1px solid none;
+    border-radius: 8px;
+}
+
+.storyImgE img {
+    width: 35vw;
+    border: 1px solid none;
+    border-radius: 8px;
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted none;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 400px;
+    background-color: rgba(214, 214, 214);
+    color: #2e2e22;
+    text-align: center;
+    border-radius: 8px;
+    padding: 8px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+
+
+/* ################### Responsiveness ###################  */
+@media only screen and (max-width: 760px) {
+
+    .medProfileLink a{
+        font: 1.2rem;
+    }
+    /* ################# story #################  */
+
+
+
+    .storyItem {
+        font-family: 'Lato', sans-serif;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: rgba(0, 0, 0, 0.04);
+        /* grid-template-columns: 50% 50%; */
+        padding: 24px;
+        border: 1px solid none;
+        border-radius: 8px;
+        margin: 48px 0 100px 0;
+    }
+
+    .storyDesc {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+    }
+
+    .storyImgO {
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+    }
+
+    .storyImgO img {
+        width: 100%;
+        border: 1px solid none;
+        border-radius: 8px;
+    }
+
+    #storyTwo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .storyImgE {
+        display: flex;
+        width: auto;
+        justify-content: flex-start;
+    }
+
+    .storyImgE img {
+        width: 100%;
+        border: 1px solid none;
+        border-radius: 8px;
+    }
+
+    .medImg img {
+        width: 30%;
+        border: 1px solid none;
+        border-radius: 50%;
+        margin-right: 24px;
+    }
+
+    .mediumProfile {
+        margin: 134px 0 0 0;
+
+    }
+
+    .tooltip{
+        display: none;
+    }
+
+}

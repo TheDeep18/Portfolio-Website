@@ -1,0 +1,371 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+#caseStudy {
+    font-size: 1.2rem;
+}
+
+.ul li{
+        padding: 0.2vh 0.4vw;
+            border-left: 0.4vw solid #BF5700;
+            margin: 1vh 0.2vw;
+            border-radius: 4px;
+}
+
+.divContainer{
+    margin: 12vh 0;
+}
+
+h2, h3{
+    margin: 4vh 0;
+}
+
+.headingPetHouse {
+    color: #2e2e2e;
+    margin: 132px 0 32px 0;
+    text-align: end;
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: 'Lato', sans-serif;
+    color: #2e2e2e;
+}
+
+.headingPetHouse::before {
+    content: "";
+    display: inline-block;
+    width: 2.5rem;
+    height: 3px;
+    background: #2e2e2e;
+    vertical-align: top;
+    margin-top: 13px;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+.scroll {
+    margin: auto;
+    padding: 4px;
+    width: 74vw;
+    justify-content: center;
+    display: flex;
+    border: 30px solid #222222;
+    border-radius: 10px;
+    overflow-y: scroll;
+    max-height: 80vh;
+}
+
+.mobileScroll {
+    margin: auto;
+    padding: 4px;
+    width: 32vw;
+    justify-content: center;
+    display: flex;
+    border: 24px solid #222222;
+    border-radius: 14px;
+    overflow-y: scroll;
+    max-height: 80vh;
+}
+
+/* ############### Project Overview ####################  */
+#overviewImg img {
+    margin-top: 40px;
+    border: 0px solid none;
+    border-radius: 24px;
+    width: 100%;
+}
+
+#overviewDesc {
+    display: flex;
+    margin: 20vh 0 20vh 0;
+}
+
+#overviewDesc div {
+    margin: 0 2vw 0 0vw;
+    width: 42%;
+}
+
+.headingh2 {
+    margin: 0 0 2vh 0;
+}
+
+.notes {
+    width: 13%;
+}
+
+.notes p {
+    margin: 1vh 0 1vh 0;
+}
+
+/* ########## methodologies ############### */
+
+#methodology {
+    margin: 20vh 0 20vh 0;
+}
+
+.methodologyImg img {
+    width: 100%;
+}
+
+
+
+/* ########## user controls ########### */
+.allHeImg img {
+    /* width: 100%; */
+    height: 60vh;
+    border: 0 px solid none;
+    border-radius: 16px;
+}
+
+#userControl {
+    margin: 4vh 0 20vh 0;
+}
+
+#consistencyStandard {
+    margin: 4vh 0 20vh 0;
+}
+
+#flexibilityEfficiency {
+    margin: 4vh 0 20vh 0;
+}
+
+.userControl {
+    display: flex;
+}
+
+.consistencyStandard {
+    display: flex;
+}
+
+.flexibilityEfficiency {
+    display: flex;
+}
+
+.allMain {
+    width: 40vw;
+    flex-direction: column;
+    display: flex;
+    margin: 0 0 0 4vw;
+    justify-content: space-evenly;
+}
+
+/* ############ Competetive Analysis ################## */
+.allCaImg {
+    display: flex;
+    justify-content: center;
+    margin: 4vh 0;
+}
+.allCaImg img{
+    height: 100vh;
+        border-radius: 16px;
+}
+
+
+/* ############### USer Interviews ############## */
+.allRdImg{
+        display: flex;
+            justify-content: center;
+            margin: 4vh 0;
+}
+.allRdImg img{
+    height: 60vh;
+}
+
+
+/* ##########Screeners ############## */
+.screener{
+    display: flex;
+
+}
+
+.screener div{
+    width: 100%;
+        background-color: #F9EEE5;
+            padding: 1vh 1vw;
+            margin: 1vh 1vw;
+            border: 0 px solid none;
+            border-radius: 16px;
+}
+
+.scUl li{
+    padding: 0.2vh 0.4vw;
+    border-left: 0.4vw solid #BF5700;
+    margin: 1vh 0.2vw;
+}
+
+
+/* ################ Task Analysis ############### */
+.taskAnalysis{
+    margin: 12vh 0 12vh 0;
+}
+
+.scenario{
+    margin: 4vh 0 8vh 0;
+}
+.taskFlow{
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.taskFlow img{
+    width: 80%;
+    border-radius: 16px;
+    margin: 2vh 0;
+}
+
+.findingsDesc{
+display: flex;
+    justify-content: space-between;
+}
+
+.taskObvs{
+display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.taskObvsDesc{
+    margin: 8vh 0 12vh 0;
+}
+.taskObvsImg img{
+    height: 40vh;
+    border: 0px solid none;
+    border-radius: 16px;
+}
+
+.taskFindList li{
+    padding: 0.2vh 0.4vw;
+        border-left: 0.4vw solid #BF5700;
+        margin: 1vh 0.2vw;
+        border-radius: 4px;
+}
+
+.taskRecs{
+    display: flex;
+    flex-direction: column;
+}
+
+.taskObvsImg{
+position: relative;
+    top: -70vh;
+    left: -2vw;
+}
+.taskRecsImg img{
+    height: 90vh;
+    border: 0px solid none;
+    border-radius: 16px;
+}
+
+
+/* ############## Result Analysis ################# */
+.susScore img{
+width: 95%;
+    display: flex;
+    border-radius: 16px;
+    margin: 1vh 1vh 1vh 1vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.susScore{
+    display: flex;
+}
+
+.susDesc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.susDesc div p{
+    width: 96%;
+    text-align: justify;
+}
+
+.susMeter img{
+    height: 20vh;
+    width: auto;
+}
+
+
+
+
+
+/* ############ Recommendations ############### */
+.rec{
+    display: flex;
+}
+
+.adRec{
+    margin: 8vh 0;
+}
+
+.recImg img{
+    height: 80vh;
+    border-radius: 16px;
+}
+
+.recDesc{
+        display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 60%;
+            margin: 0 8vw 0 0;
+}
+
+/* ############ Redesigns #################  */
+.redesignImg{
+    display: flex;
+}
+.redesign img{
+    width: 90%;
+    border-radius: 16px;
+}
+/* ########### Project Scope ##############  */
+.projectScope {
+    display: flex;
+    justify-content: space-around;
+    margin: 14vh 0 20vh 0;
+}
+
+.projectScope div {
+    width: 98%;
+}
+
+.projScopeDesc {
+    display: flex;
+    align-items: center;
+    width: 64%;
+}
+
+.projScopeDesc p {
+    font-size: 1.4rem;
+}
+
+.projScopeListMain {
+background-color: #F9EEE5;
+    padding: 3vh 3vw;
+    border: 0px solid none;
+    border-radius: 16px;
+}
+
+.projScopeListMain h3 {
+    margin: 0 0 2vh 0;
+}
+
+.projectScopeList {
+    width: 100%;
+}
+
+.projectScopeList ul {
+    width: 100%;
+}
+
+.projectScopeList ul li {
+    border-left: 0.5vw solid #BF5700;
+        margin: 0 0 1vh 0;
+        padding: 1vh 1vw;
+}

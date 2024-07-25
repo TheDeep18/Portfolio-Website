@@ -1,0 +1,68 @@
+/* ###################### left navigation content links ##########################  */
+
+.section-nav li.active>a {
+    color: #ba9043;
+    font-weight: 500;
+}
+
+/* Sidebar Navigation */
+.section-nav {
+    padding-left: 0;
+    /* border-left: 1px solid #efefef; */
+    margin: 18px 0;
+}
+
+.section-nav a {
+    text-decoration: none;
+    display: block;
+    text-align: end;
+    padding: 0.25rem 12px;
+    color: #747474;
+    transition: all 50ms ease-in-out;
+    /* 💡 This small transition makes setting of the active state smooth */
+}
+
+.section-nav a:hover,
+.section-nav a:focus {
+    color: #242424;
+}
+
+/** Poor man's reset **/
+
+
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* .section-nav ol li {
+    margin-left: 1rem;
+} */
+
+h1 {
+    font-weight: 400;
+}
+
+/** page layout **/
+main {
+    display: grid;
+    grid-template-columns: 1fr 15em;
+    max-width: 100em;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/** enlarge the sections for this demo, so that we have a long scrollable page **/
+section {
+    padding-bottom: 20rem;
+}
+
+@media only screen and (max-width: 760px) {
+
+    .left {
+        visibility: hidden;
+        display: none;
+    }
+}

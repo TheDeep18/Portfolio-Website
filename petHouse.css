@@ -1,0 +1,411 @@
+* {
+   margin: 0;
+   padding: 0;
+   scroll-behavior: smooth;
+}
+
+#caseStudy {
+   font-size: 1.1rem;
+}
+
+.headingPetHouse {
+   color: #2e2e2e;
+   margin: 132px 0 32px 0;
+   text-align: end;
+   display: flex;
+   flex-direction: row-reverse;
+   font-family: 'Lato', sans-serif;
+   color: #2e2e2e;
+}
+
+.headingPetHouse::before {
+   content: "";
+   display: inline-block;
+   width: 2.5rem;
+   height: 3px;
+   background: #2e2e2e;
+   vertical-align: top;
+   margin-top: 13px;
+   margin-right: 12px;
+   margin-left: 12px;
+}
+
+.scroll {
+   margin: auto;
+   padding: 4px;
+   width: 74vw;
+   justify-content: center;
+   display: flex;
+   border: 30px solid #222222;
+   border-radius: 10px;
+   overflow-y: scroll;
+   max-height: 80vh;
+}
+
+.mobileScroll {
+   margin: auto;
+   padding: 4px;
+   width: 32vw;
+   justify-content: center;
+   display: flex;
+   border: 24px solid #222222;
+   border-radius: 14px;
+   overflow-y: scroll;
+   max-height: 80vh;
+}
+
+
+
+/* #################### Introduction #####################  */
+#overview {
+   margin: 24px 0 0;
+}
+
+
+#overviewImg img {
+width: 100%;
+   margin: 15vh 0;
+   /* margin-top: 53px; */
+   border-radius: 16px;
+}
+
+
+#product {
+   border: 1px solid #727272;
+   border-radius: 8px;
+   display: flex;
+   justify-content: space-between;
+   width: 60vw;
+   align-items: center;
+   margin: auto;
+   padding: 40px;
+}
+
+.overview {
+   display: flex;
+   flex-direction: column;
+   height: 78px;
+   justify-content: space-evenly;
+   /* align-items: center; */
+   width: 10vw;
+}
+
+.overview h3 {
+   color: #070806;
+   font-family: 'Lato', sans-serif;
+}
+
+.overview p {
+   color: #2c2c2c;
+   font-family: 'Lato', sans-serif;
+}
+
+
+
+#aim {
+   border: 1px solid #727272;
+   width: 60vw;
+   display: flex;
+   flex-direction: column;
+   border-radius: 8px;
+   padding: 40px;
+   justify-content: center;
+   margin: 14px auto;
+}
+
+#aim h3 {
+   margin: 0px 0px 14px;
+   color: #070806;
+   font-family: 'Lato', sans-serif;
+}
+
+#aim p {
+   color: #2c2c2c;
+   font-family: 'Lato', sans-serif;
+
+}
+
+
+
+
+/* #################### paper Wireframes ###########################         */
+
+
+
+#paperWireframe img {
+   width: 30vw;
+   display: flex;
+   justify-content: center;
+   margin: auto;
+}
+
+
+
+/* #################### lofi ###########################         */
+
+
+
+
+#lofiPrototypePetHouse img {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   margin: auto;
+}
+
+/* #################### hifi ###########################         */
+
+#hifiPrototypePetHouse img {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   margin: auto;
+}
+
+/* #################### components ###########################         */
+
+.componentImg {
+   width: 100%;
+   flex-direction: column;
+   justify-content: center;
+   margin: 14px auto;
+}
+
+.componentDiv {
+   margin: 14px 0px;
+   /* width: 80vw; */
+   flex-direction: row;
+   justify-content: center;
+   margin: 14px auto;
+}
+
+.componentDiv img:first-child {
+   width: 52vw;
+}
+
+.componentDiv img:nth-child(2) {
+   width: 21vw;
+}
+
+.componentsPetHouse {
+   display: flex;
+   flex-direction: column;
+}
+
+/* #################### styleguide ###########################         */
+
+
+#styleGuidePetHouse img {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   margin: auto;
+}
+
+
+/* #################### Final laptop design ###################  */
+#finalLaptopDesignPetHouse img {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin: auto;
+}
+
+
+/* ####################### mobileDesignScrolls ##############  */
+#mobileDesignScrolls {
+   display: flex;
+   flex-direction: row;
+}
+
+.mobileScroll img {
+   width: 30vw;
+   display: flex;
+   justify-content: center;
+   margin: auto;
+}
+
+
+
+
+/* ############# mobileDesignLoFi ############  */
+#mobileDesignLoFi img {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin: auto;
+}
+
+
+
+/* ############# mobileDesignHiFi ############  */
+#mobileDesignHiFi img {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin: auto;
+}
+
+
+/* ######################## mobileDesign ################  */
+#mobileDesign img {
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin: auto;
+}
+
+/* ##################### Takeaways ############################ */
+#takeAways {
+   /* padding: 40px; */
+   display: flex;
+   flex-direction: column;
+
+}
+
+.takeawayDesc {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   /* width: 70vw; */
+   margin: auto;
+}
+
+#takeAways p {
+   color: #2c2c2c;
+   margin: 20px;
+   font-family: 'Lato', sans-serif;
+}
+
+
+/* ##################### Future Aspects ############################ */
+#futureAspects {
+   display: flex;
+   flex-direction: column;
+}
+
+.futureAspectsDesc {
+   display: flex;
+   /* width: 70vw; */
+   flex-direction: column;
+   /* justify-content: center; */
+   /* margin: auto; */
+}
+
+#futureAspects p {
+   color: #2c2c2c;
+   margin: 20px;
+   font-family: 'Lato', sans-serif;
+}
+
+
+/* ############## footer ################# */
+
+
+/* ################## Responsive web design starts here ################ */
+@media only screen and (max-width: 760px) {
+
+   #caseStudy {
+      margin: 0px 12px;
+   }
+
+   .headingPetHouse {
+      width: auto;
+   }
+
+   .scroll {
+      width: 81vw;
+      border: 8px solid #222222;
+      border-radius: 10px;
+   }
+
+   #mobileDesignScrolls {
+      display: flex;
+      flex-direction: column;
+   }
+
+   .mobileScroll {
+      margin: 16px auto;
+      width: auto;
+      border: 8px solid #222222;
+   }
+
+
+
+   /* #################### Introduction #####################  */
+   #overviewImg {
+      height: auto;
+      width: auto;
+      display: flex;
+      justify-content: center;
+
+   }
+
+   #overviewImg img {
+      width: 100%;
+      /* height: 20vh; */
+      margin-top: 140px;
+   }
+
+   #product {
+      flex-direction: column;
+      width: auto;
+      align-items: flex-start;
+      padding: 16px;
+   }
+
+   .overview {
+      height: auto;
+      align-items: flex-start;
+      width: auto;
+      margin: 16px 0px;
+   }
+
+   #aim {
+      border: 1px solid #727272;
+      width: auto;
+      display: flex;
+      flex-direction: column;
+      border-radius: 8px;
+      padding: 16px;
+      justify-content: center;
+      margin: 14px auto;
+   }
+
+   /* #################### paper Wireframes ###########################         */
+
+   #paperWireframe img {
+      width: auto;
+      height: 56vh;
+   }
+
+   /* #################### styleguide ###########################         */
+   #styleGuidePetHouse img {
+      width: auto;
+      height: 42vh;
+   }
+
+   /* ##################### Takeaways ############################ */
+   #takeAways p {
+      color: #2c2c2c;
+      margin: 20px 0px;
+      font-family: 'Lato', sans-serif;
+   }
+
+   /* ##################### Future Aspects ############################ */
+   #futureAspects p {
+      margin: 20px 0px;
+   }
+}
+
+@media only screen and (max-width: 760px) {
+   h1{
+    margin: 150px 0 150px 0;
+   }
+
+}

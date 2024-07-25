@@ -1,6 +1,13 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: "Lato";
+}
+
+.headingEach {
+    text-align: center;
+    font-family: 'Lato';
+
 }
 
 .sketchMainDuo {
@@ -21,7 +28,7 @@
 .sketchItem img {
     height: 74vh;
     width: 37vw;
-    margin: 80px;
+    /* margin: 80px; */
 
 }
 
@@ -33,146 +40,22 @@
 
 
 
-/* ########## nextPrevious Links ################## */
-
-#nextPreviousLinks {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 200px;
-}
-
-.nextPrevLinks {
-    display: flex;
-    margin: auto;
-    width: 80vw;
-    justify-content: center;
-}
-
-#nextPreviousLinks li {
-    list-style: none;
-}
-
-#nextPreviousLinks li a {
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    color: black;
-    padding: 14px;
-    margin: 10px;
-    margin-bottom: 4px;
-    display: flex;
-    text-align: center;
-
-}
-
-#nextPreviousLinks span {
-    font-size: 40px;
-    font-family: 'Roboto', sans-serif;
-    color: black;
-
-}
-
-
-
-#nextPreviousLinks a:hover {
-    cursor: pointer;
-    padding: 14px;
-    font-family: 'Roboto', sans-serif;
-    color: #ba9043;
-    display: flex;
-    text-align: center;
-    /* border-bottom: 1px solid black; */
-
-}
-
-#nextPreviousLinks a:active {
-    cursor: pointer;
-    padding: 14px;
-    font-family: 'Roboto', sans-serif;
-    color: #ba9043;
-    display: flex;
-    text-align: center;
-    /* border-bottom: 1px solid black; */
-
-}
-
-
-
 /* ################ Responsive web design #################  */
 @media only screen and (max-width: 760px) {
+    .sketchMainDuo {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     .sketchMainDuoSingle {
-            display: flex;
-            justify-content: center;
-            margin-top: 100px;
-        }
-                .sketchItem img {
-                    height: auto;
-                    width: 82vw;
-                    margin: auto;
-                }
-                                .sketchMainDuo {
-                                    display: flex;
-                                    flex-direction: column;
-                                    justify-content: center;
-                                    align-items: center;
-                                }
-                                                                        #nextPreviousLinks li a {
-                                                                            text-decoration: none;
-                                                                            font-family: 'Roboto', sans-serif;
-                                                                            color: black;
-                                                                            padding: 14px;
-                                                                            margin: 0px;
-                                                                            margin-bottom: 4px;
-                                                                            display: flex;
-                                                                            text-align: center;
-                                                                        }
-}
+        margin-top: 125px;
+    }
 
+    .sketchItem img {
+        height: auto;
+        width: 82vw;
+        margin: auto;
+    }
 
-
-
-
-
-/* ############## Contact ################# */
-
-
-#contact {
-    height: calc(100vh - 256px);
-    display: flex;
-    flex-direction: column;
-    margin: 0 100px;
-}
-
-#contact a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    font-size: 4rem;
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
-}
-
-#contact a:hover {
-    text-decoration: none;
-    color: rgb(51, 51, 51);
-    font-weight: bold;
-    font-size: 4rem;
-    font-style: italic;
-    font-family: 'Playfair Display', serif;
-    transition: all 0.2s ease-in-out;
-}
-
-
-
-#contact p {
-    font-family: Lato, sans-serif;
-    font-size: 1.5rem;
-}
-
-
-/* ############## footer ################# */
-footer {
-    padding: 20px;
-    background-color: white;
-    box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
-    text-align: center;
 }
